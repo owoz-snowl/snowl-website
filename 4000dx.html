@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="4000DX Series — Hidden nylon snap buttons for panel connections. White and Black finishes. Ideal for furniture, wood panels, metal plates, and architectural decoration.">
+  <title>4000DX Series — Nylon Button — SNOWL</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+#lightbox{position:fixed;inset:0;background:rgba(0,0,0,0.88);z-index:9999;display:none;align-items:center;justify-content:center;cursor:zoom-out}
+#lightbox.open{display:flex}
+#lightbox img{max-width:90vw;max-height:90vh;border-radius:12px;box-shadow:0 8px 40px rgba(0,0,0,0.5);transition:opacity 0.3s ease}
+#lightbox-close{position:absolute;top:20px;right:24px;background:none;border:none;color:#fff;font-size:2rem;cursor:pointer;line-height:1}
+.breadcrumb{padding:20px 0;font-size:0.8rem;color:var(--c-muted);max-width:1200px;margin:0 auto;padding-left:24px;padding-right:24px}
+.breadcrumb a{color:var(--c-accent);text-decoration:none;font-weight:600}
+.breadcrumb span{color:var(--c-body);font-weight:600}
+.series-hero{background:linear-gradient(135deg,var(--c-primary),#0d4f8a);color:#fff;padding:2.5rem 0;text-align:center;position:relative;overflow:hidden}
+.series-hero::before{content:'';position:absolute;inset:0;background:radial-gradient(ellipse at 30% 50%,rgba(0,87,183,0.3) 0%,transparent 60%)}
+.series-hero>div{position:relative}
+.series-hero h1{font-size:clamp(1.8rem,4vw,2.8rem);font-weight:900;margin-bottom:10px;letter-spacing:-0.5px}
+.series-hero p{color:rgba(255,255,255,0.85);max-width:640px;margin:0 auto;font-size:0.95rem;line-height:1.7}
+.series-badges{display:flex;gap:8px;justify-content:center;flex-wrap:wrap;margin-top:16px}
+.series-badge{display:inline-flex;align-items:center;gap:6px;background:rgba(255,255,255,0.12);border:1px solid rgba(255,255,255,0.2);border-radius:8px;padding:5px 12px;font-size:0.8rem;font-weight:600}
+.color-dot{width:10px;height:10px;border-radius:50%;flex-shrink:0}
+.dot-white{background:#e8ecf0;border:1px solid #ccc}
+.dot-black{background:#2a2a2a;border:1px solid #555}
+.prod-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:24px}
+@media(max-width:768px){.prod-grid{grid-template-columns:1fr}}
+.prod-card{background:#ffffff;border:2px solid var(--c-border);border-radius:16px;overflow:hidden;transition:all 0.3s var(--ease);opacity:0;transform:translateY(20px)}
+.prod-card.reveal{opacity:1;transform:translateY(0)}
+.prod-card:hover{border-color:var(--c-accent);transform:translateY(-5px);box-shadow:0 12px 32px oklch(0 0 0 / 0.12)}
+.prod-main-img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;cursor:zoom-in;transition:opacity 0.3s ease}
+.prod-thumbs{display:flex;gap:8px;padding:12px;flex-wrap:wrap;background:#fff}
+.prod-thumb{width:56px;height:56px;object-fit:cover;border-radius:6px;border:2px solid transparent;cursor:pointer;transition:border-color 0.2s}
+.prod-thumb:hover,.prod-thumb.active{border-color:var(--c-accent)}
+.prod-body{padding:20px;background:#fff}
+.prod-model{font-size:0.68rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--c-accent);margin-bottom:5px;display:flex;align-items:center;gap:8px}
+.color-swatch{width:12px;height:12px;border-radius:50%;flex-shrink:0;display:inline-block}
+.swatch-white{background:#fff;border:1px solid #ccc}
+.swatch-black{background:#2a2a2a;border:1px solid #555}
+.prod-name{font-size:1.05rem;font-weight:800;color:var(--c-primary);margin-bottom:8px;line-height:1.3}
+.prod-desc{font-size:0.82rem;color:var(--c-muted);line-height:1.6;margin-bottom:14px}
+.spec-table{width:100%;border-collapse:collapse;margin-bottom:16px;background:var(--c-surface);border-radius:8px;overflow:hidden}
+.spec-table tr{border-bottom:1px solid var(--c-border)}
+.spec-table tr:last-child{border-bottom:none}
+.spec-table td{padding:8px 12px;font-size:0.8rem}
+.spec-table td:first-child{font-weight:600;color:var(--c-muted);width:38%}
+.spec-table td:last-child{color:var(--c-body)}
+.feat-list{list-style:none;padding:0;margin:0 0 16px}
+.feat-list li{font-size:0.8rem;color:var(--c-muted);padding:4px 0;padding-left:16px;position:relative;line-height:1.5;border-bottom:1px solid var(--c-border)}
+.feat-list li:last-child{border-bottom:none}
+.feat-list li::before{content:'✓';position:absolute;left:0;color:var(--c-accent);font-weight:700;font-size:0.7rem}
+.size-section{border-top:3px solid var(--c-accent);background:#f4f4f4;border-radius:0 0 8px 8px;padding:20px;margin-top:0}
+.size-section-header{font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--c-primary);margin-bottom:12px;display:flex;align-items:center;gap:6px}
+.size-table{width:100%;border-collapse:collapse;margin-top:12px}
+.size-table th{background:var(--c-accent);color:#fff;padding:8px 12px;font-size:0.75rem;font-weight:700;text-align:center}
+.size-table td{padding:8px 12px;font-size:0.78rem;text-align:center;color:var(--c-body);border-bottom:1px solid var(--c-border)}
+.size-table tr:nth-child(even) td{background:rgba(0,0,0,0.03)}
+.size-img{display:block;width:100%;max-width:500px;margin:12px auto 0;border-radius:8px;border:1px solid var(--c-border)}
+  </style>
+</head>
+<body>
+<div class="loader" id="loader"><div class="loader-spinner"></div><div class="loader-text">SNOWL</div></div>
+<div class="page-bg"></div>
+<div id="lightbox" onclick="closeLightbox()">
+  <button id="lightbox-close" aria-label="Close">✕</button>
+  <img id="lightbox-img" src="" alt="">
+</div>
+<nav class="navbar" id="navbar">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo"><img src="LOGO/SNOWL.png" alt="SNOWL" style="height:32px;width:auto;display:block"></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li class="has-dropdown">
+        <a href="products.html" class="dropdown-trigger active">Products <span class="dropdown-arrow">▼</span></a>
+        <div class="dropdown-menu">
+          <a href="owoz-fastener.html">OWOZ Fastener</a>
+          <a href="snap-fastener.html">Snap Fastener</a>
+          <a href="turn-button.html">Turn Button</a>
+          <a href="nylon-button.html" class="active">Nylon Button</a>
+          <a href="tool.html">TOOL</a>
+        </div>
+      </li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="news.html">News</a></li>
+      <li><a href="videos.html">Videos</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="lang-switcher">
+      <button class="lang-btn active" data-lang="en">EN</button>
+      <button class="lang-btn" data-lang="zh">中</button>
+      <button class="lang-btn" data-lang="de">DE</button>
+      <button class="lang-btn" data-lang="fr">FR</button>
+      <button class="lang-btn" data-lang="ru">RU</button>
+      <button class="lang-btn" data-lang="pt">PT</button>
+      <button class="lang-btn" data-lang="es">ES</button>
+    </div>
+    <button class="menu-toggle" id="menuToggle" aria-label="Menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a><a href="products.html">Products</a><a href="about.html">About</a><a href="news.html">News</a><a href="videos.html">Videos</a><a href="contact.html">Contact</a>
+</div>
+<main>
+  <div class="breadcrumb">
+    <a href="index.html">Home</a> › <a href="products.html">Products</a> › <a href="nylon-button.html">Nylon Button</a> › <span>4000DX Series</span>
+  </div>
+  <div class="series-hero">
+    <div style="max-width:1200px;margin:0 auto;padding:0 24px">
+      <div style="display:inline-flex;align-items:center;gap:8px;background:rgba(255,255,255,0.15);border:1px solid rgba(255,255,255,0.3);padding:5px 16px;border-radius:999px;font-size:0.75rem;font-weight:700;color:#fff;margin-bottom:12px">Nylon Button Series — Hidden Panel Fastener</div>
+      <h1>4000DX Series</h1>
+      <p>Hidden nylon snap buttons designed for panel connections. White and Black finishes. Widely used in furniture, wood panels, metal plates, and architectural decoration applications.</p>
+      <div class="series-badges">
+        <div class="series-badge"><span class="color-dot dot-white"></span> White</div>
+        <div class="series-badge"><span class="color-dot dot-black"></span> Black</div>
+        <div class="series-badge">🔒 Hidden Design</div>
+        <div class="series-badge">💪 15KG Load Capacity</div>
+      </div>
+    </div>
+  </div>
+  <section class="section section--white">
+    <div class="container">
+      <div class="prod-grid">
+        <!-- 4000D8W - White -->
+        <div class="prod-card" data-delay="0">
+          <img src="NYLON BUTTON/4000DX/4000D8W.jpg" alt="4000D8W" class="prod-main-img" onclick="openLightbox(this.src)" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;cursor:zoom-in">
+          <div class="prod-thumbs">
+            <img src="NYLON BUTTON/4000DX/4000D8W.jpg" alt="4000D8W" class="prod-thumb active" onclick="switchMain(this)">
+            <img src="NYLON BUTTON/4000DX/9683018cfa043c8561f52517980d3125.jpg" alt="4000D8W detail" class="prod-thumb" onclick="switchMain(this)">
+          </div>
+          <div class="prod-body">
+            <div class="prod-model">
+              <span class="color-swatch swatch-white"></span>
+              #4000D8W — White Version
+            </div>
+            <h3 class="prod-name">4000DX Hidden Nylon Snap Button — White</h3>
+            <p class="prod-desc">Hidden nylon snap button designed for panel connections. The female part (4000D81) mounts on the base panel; the male ball part (4000D82) mounts on the face panel. After installation, the 5MM gap between panels creates a clean, fastener-free surface appearance. Ideal for furniture, wood panels, metal plates, and architectural decoration.</p>
+            <table class="spec-table">
+              <tr><td>Model</td><td>4000D8W (White)</td></tr>
+              <tr><td>Female Part</td><td>4000D81 (Socket Base)</td></tr>
+              <tr><td>Male Part</td><td>4000D82 (Ball Head)</td></tr>
+              <tr><td>Color</td><td>⚪ White</td></tr>
+              <tr><td>Material</td><td>Glass-Fiber Reinforced Nylon</td></tr>
+              <tr><td>Load Capacity</td><td>15 KG per fastener</td></tr>
+              <tr><td>Panel Gap</td><td>5 MM (after installation)</td></tr>
+              <tr><td>Base Plate Thickness</td><td>≥ 10 MM</td></tr>
+              <tr><td>Screw Diameter</td><td>3.5 MM</td></tr>
+              <tr><td>UV Resistance</td><td>UV-stabilized formula</td></tr>
+              <tr><td>Applications</td><td>Furniture, wood panels, metal plates, architectural decoration</td></tr>
+              <tr><td>Brand</td><td>SNOWL Hong Kong Limited</td></tr>
+            </table>
+            <ul class="feat-list">
+              <li>🔒 Hidden Design — 5MM panel gap after installation, clean and fastener-free surface</li>
+              <li>💪 High Load Capacity — 15KG independent load per fastener</li>
+              <li>♻️ Reusable — Durable nylon supports repeated assembly and disassembly without wear</li>
+              <li>🛠️ Easy Installation — Standard 3.5MM screws, quick to mount</li>
+              <li>🌊 Salt Spray Resistant — Suitable for marine and outdoor panel applications</li>
+              <li>🌞 UV Stabilized — No fading or cracking under sun exposure</li>
+              <li>⚖️ Lightweight — Nylon construction adds no heavy burden</li>
+            </ul>
+            <div class="size-section">
+              <div class="size-section-header">📐 SIZE REFERENCE CHART</div>
+              <img src="NYLON BUTTON/4000DX/4000D81SIZE.jpg" alt="Size Chart - 4000D81" class="size-img" loading="lazy">
+              <img src="NYLON BUTTON/4000DX/4000D82SIZE.jpg" alt="Size Chart - 4000D82" class="size-img" loading="lazy" style="margin-top:12px">
+              <table class="size-table">
+                <thead><tr><th>Part</th><th>Model</th><th>Installation Position</th><th>Color</th></tr></thead>
+                <tbody>
+                  <tr><td>Female / 母扣</td><td>4000D81</td><td>Base Panel / 底板</td><td>White</td></tr>
+                  <tr><td>Male / 公扣</td><td>4000D82</td><td>Face Panel / 面板</td><td>White</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <a href="contact.html" class="btn btn-primary" style="display:flex;justify-content:center;font-size:0.88rem;padding:10px;margin-top:16px">Send Inquiry →</a>
+          </div>
+        </div>
+        <!-- 4000D8B - Black -->
+        <div class="prod-card" data-delay="1">
+          <img src="NYLON BUTTON/4000DX/4000D8B.jpg" alt="4000D8B" class="prod-main-img" onclick="openLightbox(this.src)" style="width:100%;aspect-ratio:4/3;object-fit:cover;display:block;cursor:zoom-in">
+          <div class="prod-thumbs">
+            <img src="NYLON BUTTON/4000DX/4000D8B.jpg" alt="4000D8B" class="prod-thumb active" onclick="switchMain(this)">
+            <img src="NYLON BUTTON/4000DX/9683018cfa043c8561f52517980d3125.jpg" alt="4000D8B detail" class="prod-thumb" onclick="switchMain(this)">
+          </div>
+          <div class="prod-body">
+            <div class="prod-model">
+              <span class="color-swatch swatch-black"></span>
+              #4000D8B — Black Version
+            </div>
+            <h3 class="prod-name">4000DX Hidden Nylon Snap Button — Black</h3>
+            <p class="prod-desc">Hidden nylon snap button designed for panel connections. The female part (4000D81) mounts on the base panel; the male ball part (4000D82) mounts on the face panel. After installation, the 5MM gap between panels creates a clean, fastener-free surface appearance. Ideal for furniture, wood panels, metal plates, and architectural decoration.</p>
+            <table class="spec-table">
+              <tr><td>Model</td><td>4000D8B (Black)</td></tr>
+              <tr><td>Female Part</td><td>4000D81 (Socket Base)</td></tr>
+              <tr><td>Male Part</td><td>4000D82 (Ball Head)</td></tr>
+              <tr><td>Color</td><td>⚫ Black</td></tr>
+              <tr><td>Material</td><td>Glass-Fiber Reinforced Nylon</td></tr>
+              <tr><td>Load Capacity</td><td>15 KG per fastener</td></tr>
+              <tr><td>Panel Gap</td><td>5 MM (after installation)</td></tr>
+              <tr><td>Base Plate Thickness</td><td>≥ 10 MM</td></tr>
+              <tr><td>Screw Diameter</td><td>3.5 MM</td></tr>
+              <tr><td>UV Resistance</td><td>UV-stabilized formula</td></tr>
+              <tr><td>Applications</td><td>Furniture, wood panels, metal plates, architectural decoration</td></tr>
+              <tr><td>Brand</td><td>SNOWL Hong Kong Limited</td></tr>
+            </table>
+            <ul class="feat-list">
+              <li>🔒 Hidden Design — 5MM panel gap after installation, clean and fastener-free surface</li>
+              <li>💪 High Load Capacity — 15KG independent load per fastener</li>
+              <li>♻️ Reusable — Durable nylon supports repeated assembly and disassembly without wear</li>
+              <li>🛠️ Easy Installation — Standard 3.5MM screws, quick to mount</li>
+              <li>🌊 Salt Spray Resistant — Suitable for marine and outdoor panel applications</li>
+              <li>🌞 UV Stabilized — No fading or cracking under sun exposure</li>
+              <li>⚖️ Lightweight — Nylon construction adds no heavy burden</li>
+            </ul>
+            <div class="size-section">
+              <div class="size-section-header">📐 SIZE REFERENCE CHART</div>
+              <img src="NYLON BUTTON/4000DX/4000D81SIZE.jpg" alt="Size Chart - 4000D81" class="size-img" loading="lazy">
+              <img src="NYLON BUTTON/4000DX/4000D82SIZE.jpg" alt="Size Chart - 4000D82" class="size-img" loading="lazy" style="margin-top:12px">
+              <table class="size-table">
+                <thead><tr><th>Part</th><th>Model</th><th>Installation Position</th><th>Color</th></tr></thead>
+                <tbody>
+                  <tr><td>Female / 母扣</td><td>4000D81</td><td>Base Panel / 底板</td><td>Black</td></tr>
+                  <tr><td>Male / 公扣</td><td>4000D82</td><td>Face Panel / 面板</td><td>Black</td></tr>
+                </tbody>
+              </table>
+            </div>
+            <a href="contact.html" class="btn btn-primary" style="display:flex;justify-content:center;font-size:0.88rem;padding:10px;margin-top:16px">Send Inquiry →</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="section section--white" style="padding-top:0">
+    <div class="container">
+      <div style="background:#f4f4f4;border-radius:12px;padding:24px;text-align:center;border-top:3px solid var(--c-accent)">
+        <div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:var(--c-primary);margin-bottom:16px;display:flex;align-items:center;justify-content:center;gap:8px">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+          4000D8 Complete Assembly — SIZE Reference
+        </div>
+        <img src="NYLON BUTTON/4000DX/D8SIZE.jpg" alt="4000D8 Size Chart" style="max-width:100%;width:100%;max-width:700px;border-radius:8px;border:1px solid var(--c-border);display:block;margin:0 auto">
+      </div>
+    </div>
+  </section>
+  <section class="section section--sand">
+    <div class="container">
+      <div class="section-header fade-in" style="margin-bottom:32px">
+        <div class="section-tag">Why 4000DX?</div>
+        <h2 class="section-title">Hidden Panel Connection — Clean & Strong</h2>
+      </div>
+      <div class="advantages-grid">
+        <div class="advantage-card">
+          <div class="advantage-icon"><i data-lucide="lock"></i></div>
+          <h3>Hidden Design</h3>
+          <p>5MM panel gap after installation creates a completely clean, fastener-free surface appearance on furniture and panels.</p>
+        </div>
+        <div class="advantage-card">
+          <div class="advantage-icon"><i data-lucide="weight"></i></div>
+          <h3>15KG Load</h3>
+          <p>Each fastener independently supports up to 15KG of load — strong enough for most furniture and panel applications.</p>
+        </div>
+        <div class="advantage-card">
+          <div class="advantage-icon"><i data-lucide="refresh-cw"></i></div>
+          <h3>Reusable</h3>
+          <p>Durable glass-fiber reinforced nylon supports repeated assembly and disassembly without degradation.</p>
+        </div>
+        <div class="advantage-card">
+          <div class="advantage-icon"><i data-lucide="settings"></i></div>
+          <h3>Easy Install</h3>
+          <p>Standard 3.5MM screws and simple snap-together operation — no special tools required.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <a href="index.html" class="nav-logo"><img src="LOGO/SNOWL.png" alt="SNOWL" style="height:28px;width:auto;display:block;margin-bottom:8px;filter:brightness(0) invert(1)"></a>
+        <p>SNOWL Hong Kong Limited — precision marine fastener manufacturer since 1995.</p>
+      </div>
+      <div class="footer-col"><h4>Products</h4><ul><li><a href="owoz-fastener.html">OWOZ Fastener</a></li><li><a href="snap-fastener.html">Snap Fastener</a></li><li><a href="turn-button.html">Turn Button</a></li><li><a href="nylon-button.html">Nylon Button</a></li><li><a href="tool.html">TOOL</a></li></ul></div>
+      <div class="footer-col"><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="news.html">News</a></li><li><a href="videos.html">Videos</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4>Contact</h4><ul><li>📞 +86-757-87768348</li><li>📧 owoz@snowl.top</li><li>📍 Foshan, Guangdong, China</li><li>🕐 Mon–Sat 9:00–18:00</li></ul></div>
+    </div>
+    <div class="footer-bottom"><p>© 2025 SNOWL HONG KONG. All Rights Reserved.</p></div>
+  </div>
+</footer>
+<script src="main.js"></script>
+<script>
+function openLightbox(src){document.getElementById('lightbox-img').style.opacity='0';setTimeout(function(){document.getElementById('lightbox-img').src=src;document.getElementById('lightbox-img').style.opacity='1'},50);document.getElementById('lightbox').classList.add('open');document.body.style.overflow='hidden'}
+function closeLightbox(){document.getElementById('lightbox').classList.remove('open');document.body.style.overflow=''}
+function switchMain(thumb){var p=thumb.closest('.prod-card');var m=p.querySelector('.prod-main-img');m.style.opacity='0';setTimeout(function(){m.src=thumb.src;m.style.opacity='1'},150);p.querySelectorAll('.prod-thumb').forEach(function(t){t.classList.remove('active')});thumb.classList.add('active')}
+document.addEventListener('keydown',function(e){if(e.key==='Escape')closeLightbox()});
+var observer=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){var d=parseInt(e.target.getAttribute('data-delay')||0);setTimeout(function(){e.target.classList.add('reveal')},d*100);observer.unobserve(e.target)}})},{threshold:0.1});
+document.querySelectorAll('.prod-card').forEach(function(c){observer.observe(c)});
+</script>
+</body>
+</html>
