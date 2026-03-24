@@ -97,7 +97,7 @@
     </ul>
     <div class="lang-switcher">
       <button class="lang-btn active" data-lang="en">EN</button>
-      <button class="lang-btn" data-lang="zh">中</button>
+      <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中</button>
       <button class="lang-btn" data-lang="de">DE</button>
       <button class="lang-btn" data-lang="fr">FR</button>
       <button class="lang-btn" data-lang="ru">RU</button>
@@ -291,7 +291,7 @@
         <p>SNOWL Hong Kong Limited — precision marine fastener manufacturer since 1995.</p>
       </div>
       <div class="footer-col">
-        <h4>Products</h4>
+        <h4> data-i18n="f_prod">Products</h4>
         <ul>
           <li><a href="owoz-fastener.html">OWOZ Fastener</a></li>
           <li><a href="snap-fastener.html">Snap Fastener</a></li>
@@ -301,7 +301,7 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Company</h4>
+        <h4> data-i18n="f_company">Company</h4>
         <ul>
           <li><a href="about.html">About Us</a></li>
           <li><a href="news.html">News</a></li>
@@ -310,7 +310,7 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4>Contact</h4>
+        <h4> data-i18n="f_contact">Contact</h4>
         <ul>
           <li>📞 +86-757-87768348</li>
           <li>📧 owoz@snowl.top</li>
@@ -320,7 +320,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p>© 2025 SNOWL HONG KONG. All Rights Reserved.</p>
+      <p> data-i18n="f_copy">© 2025 SNOWL HONG KONG. All Rights Reserved.</p>
     </div>
   </div>
 </footer>
@@ -340,5 +340,6 @@ document.addEventListener('keydown', function(e) {
   if (e.key === 'Escape') closeLightbox();
 });
 </script>
+<script src="js/i18n.js"></script>
 </body>
 </html>

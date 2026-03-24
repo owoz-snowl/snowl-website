@@ -37,7 +37,7 @@
     </ul>
     <div class="lang-switcher">
       <button class="lang-btn active" data-lang="en">EN</button>
-      <button class="lang-btn" data-lang="zh">中</button>
+      <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中</button>
       <button class="lang-btn" data-lang="de">DE</button>
       <button class="lang-btn" data-lang="fr">FR</button>
       <button class="lang-btn" data-lang="ru">RU</button>
@@ -53,7 +53,7 @@
 <main><section class="hero">
   <div class="container">
     <div class="hero-content">
-      <div class="hero-badge">All-Copper Marine Snap Button Bases</div>
+      <div class="hero-badge" data-i18n="owoz_tag">All-Copper Marine Snap Button Bases</div>
       <h1>OWOZ Fastener<br><span>Marine-Grade Fasteners</span></h1>
       <p class="hero-desc">OWOZ series all-copper marine snap button bases engineered for ocean environments. Available in three premium finishes — Silver/Nickel, Chrome, and Black Chrome — designed for truck canvas, bimini tops, sail covers, and marine applications.</p>
       <div class="hero-buttons">
@@ -71,7 +71,7 @@
         <img src="https://images.unsplash.com/photo-1605281317010-fe5ffe798166?w=700&q=80" alt="OWOZ Fastener" style="width:100%;border-radius:16px;border:1px solid var(--c-border);box-shadow:var(--shadow-md)">
       </div>
       <div class="fade-in">
-        <div class="section-tag">Product Overview</div>
+        <div class="section-tag"> data-i18n="prod_overview">Product Overview</div>
         <h2 style="font-size:var(--text-3xl);font-weight:900;color:var(--c-primary);margin-bottom:var(--sp-3)">OWOZ Fastener</h2>
         <p style="color:var(--c-muted);margin-bottom:var(--sp-4);line-height:1.8">OWOZ series all-copper marine snap button bases engineered for ocean environments. Available in three premium finishes — Silver/Nickel, Chrome, and Black Chrome — designed for truck canvas, bimini tops, sail covers, and marine applications.</p>
         <div class="about-highlights">
@@ -84,7 +84,7 @@
 <section class="section section--sand">
   <div class="container">
     <div class="section-header fade-in" style="margin-bottom:32px">
-      <div class="section-tag">Popular Series</div>
+      <div class="section-tag"> data-i18n="sec_show_tag">Popular Series</div>
       <h2 class="section-title">800000X Series — Three Finishes</h2>
       <p class="section-desc">Explore the full lineup with Silver, Chrome, and Black Chrome options.</p>
     </div>
@@ -201,7 +201,7 @@
 <section class="section section--sand">
   <div class="container">
     <div class="section-header fade-in">
-      <div class="section-tag">Specifications</div>
+      <div class="section-tag"> data-i18n="spec_title">Specifications</div>
       <h2 class="section-title">Technical Details</h2>
     </div>
     <div style="background:var(--c-white);border:1px solid var(--c-border);border-radius:var(--r-lg);overflow:hidden;max-width:700px;margin:0 auto;box-shadow:var(--shadow-sm)">
@@ -226,9 +226,10 @@
 </section></main>
 <footer class="footer"><div class="container"><div class="footer-grid">
 <div class="footer-brand"><a href="index.html" class="nav-logo"><img src="LOGO/SNOWL.png" alt="SNOWL" style="height:28px;width:auto;display:block;margin-bottom:8px;filter:brightness(0) invert(1)"></a><p>SNOWL Hong Kong Limited — precision marine fastener manufacturer since 1995.</p></div>
-<div class="footer-col"><h4>Products</h4><ul><li><a href="owoz-fastener.html">OWOZ Fastener</a></li><li><a href="snap-fastener.html">Snap Fastener</a></li><li><a href="turn-button.html">Turn Button</a></li><li><a href="nylon-button.html">Nylon Button</a></li><li><a href="tool.html">TOOL</a></li></ul></div>
-<div class="footer-col"><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="news.html">News</a></li><li><a href="videos.html">Videos</a></li><li><a href="contact.html">Contact</a></li></ul></div>
-<div class="footer-col"><h4>Contact</h4><ul><li>📞 +86-757-87768348</li><li>📧 owoz@snowl.top</li><li>📍 Foshan, Guangdong, China</li><li>🕐 Mon–Sat 9:00–18:00</li></ul></div>
-</div><div class="footer-bottom"><p>© 2025 SNOWL HONG KONG. All Rights Reserved.</p></div></div></footer>
+<div class="footer-col"><h4> data-i18n="f_prod">Products</h4><ul><li><a href="owoz-fastener.html">OWOZ Fastener</a></li><li><a href="snap-fastener.html">Snap Fastener</a></li><li><a href="turn-button.html">Turn Button</a></li><li><a href="nylon-button.html">Nylon Button</a></li><li><a href="tool.html">TOOL</a></li></ul></div>
+<div class="footer-col"><h4> data-i18n="f_company">Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="news.html">News</a></li><li><a href="videos.html">Videos</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+<div class="footer-col"><h4> data-i18n="f_contact">Contact</h4><ul><li>📞 +86-757-87768348</li><li>📧 owoz@snowl.top</li><li>📍 Foshan, Guangdong, China</li><li>🕐 Mon–Sat 9:00–18:00</li></ul></div>
+</div><div class="footer-bottom"><p> data-i18n="f_copy">© 2025 SNOWL HONG KONG. All Rights Reserved.</p></div></div></footer>
 <script src="main.js"></script>
+<script src="js/i18n.js"></script>
 </body></html>

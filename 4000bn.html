@@ -90,7 +90,7 @@
     </ul>
     <div class="lang-switcher">
       <button class="lang-btn active" data-lang="en">EN</button>
-      <button class="lang-btn" data-lang="zh">中</button>
+      <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中</button>
       <button class="lang-btn" data-lang="de">DE</button>
       <button class="lang-btn" data-lang="fr">FR</button>
       <button class="lang-btn" data-lang="ru">RU</button>
@@ -246,11 +246,11 @@
         <a href="index.html" class="nav-logo"><img src="LOGO/SNOWL.png" alt="SNOWL" style="height:28px;width:auto;display:block;margin-bottom:8px;filter:brightness(0) invert(1)"></a>
         <p>SNOWL Hong Kong Limited — precision marine fastener manufacturer since 1995.</p>
       </div>
-      <div class="footer-col"><h4>Products</h4><ul><li><a href="owoz-fastener.html">OWOZ Fastener</a></li><li><a href="snap-fastener.html">Snap Fastener</a></li><li><a href="turn-button.html">Turn Button</a></li><li><a href="nylon-button.html">Nylon Button</a></li><li><a href="tool.html">TOOL</a></li></ul></div>
-      <div class="footer-col"><h4>Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="news.html">News</a></li><li><a href="videos.html">Videos</a></li><li><a href="contact.html">Contact</a></li></ul></div>
-      <div class="footer-col"><h4>Contact</h4><ul><li>📞 +86-757-87768348</li><li>📧 owoz@snowl.top</li><li>📍 Foshan, Guangdong, China</li><li>🕐 Mon–Sat 9:00–18:00</li></ul></div>
+      <div class="footer-col"><h4> data-i18n="f_prod">Products</h4><ul><li><a href="owoz-fastener.html">OWOZ Fastener</a></li><li><a href="snap-fastener.html">Snap Fastener</a></li><li><a href="turn-button.html">Turn Button</a></li><li><a href="nylon-button.html">Nylon Button</a></li><li><a href="tool.html">TOOL</a></li></ul></div>
+      <div class="footer-col"><h4> data-i18n="f_company">Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="news.html">News</a></li><li><a href="videos.html">Videos</a></li><li><a href="contact.html">Contact</a></li></ul></div>
+      <div class="footer-col"><h4> data-i18n="f_contact">Contact</h4><ul><li>📞 +86-757-87768348</li><li>📧 owoz@snowl.top</li><li>📍 Foshan, Guangdong, China</li><li>🕐 Mon–Sat 9:00–18:00</li></ul></div>
     </div>
-    <div class="footer-bottom"><p>© 2025 SNOWL HONG KONG. All Rights Reserved.</p></div>
+    <div class="footer-bottom"><p> data-i18n="f_copy"> data-i18n="f_copy">© 2025 SNOWL HONG KONG. All Rights Reserved.</p></div>
   </div>
 </footer>
 <script src="main.js"></script>
@@ -262,5 +262,6 @@ document.addEventListener('keydown',function(e){if(e.key==='Escape')closeLightbo
 var observer=new IntersectionObserver(function(entries){entries.forEach(function(e){if(e.isIntersecting){var d=parseInt(e.target.getAttribute('data-delay')||0);setTimeout(function(){e.target.classList.add('reveal')},d*100);observer.unobserve(e.target)}})},{threshold:0.1});
 document.querySelectorAll('.prod-card').forEach(function(c){observer.observe(c)});
 </script>
+<script src="js/i18n.js"></script>
 </body>
 </html>
