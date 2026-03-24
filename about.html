@@ -22,7 +22,20 @@
 <li><a href="about.html" class="active">About</a></li><li><a href="news.html">News</a></li><li><a href="videos.html">Videos</a></li><li><a href="contact.html">Contact</a></li></ul>
 <div class="lang-switcher"><button class="lang-btn active">EN</button><button class="lang-btn"> data-lang="zh">中</button><button class="lang-btn">DE</button><button class="lang-btn">FR</button><button class="lang-btn">RU</button><button class="lang-btn">PT</button><button class="lang-btn">ES</button></div>
 <button class="menu-toggle" id="menuToggle" aria-label="Menu"><span></span><span></span><span></span></button></div></nav>
-<div class="mobile-menu" id="mobileMenu"><a href="index.html">Home</a><a href="products.html">Products</a><a href="about.html">About</a><a href="news.html">News</a><a href="videos.html">Videos</a><a href="contact.html">Contact</a></div>
+<div class="mobile-menu" id="mobileMenu">
+  <div class="mobile-lang" style="display:flex;align-items:center;gap:6px;padding:16px 0 8px;border-bottom:1px solid rgba(255,255,255,0.1);margin-bottom:8px">
+  <span style="color:rgba(255,255,255,0.5);font-size:0.75rem;font-weight:600;text-transform:uppercase;letter-spacing:1px">Language</span>
+  <div style="display:flex;gap:4px;flex-wrap:wrap">
+    <button class="lang-btn" data-lang="en" onclick="setLang('en')">EN</button>
+    <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中</button>
+    <button class="lang-btn" data-lang="de" onclick="setLang('de')">DE</button>
+    <button class="lang-btn" data-lang="fr" onclick="setLang('fr')">FR</button>
+    <button class="lang-btn" data-lang="ru" onclick="setLang('ru')">RU</button>
+    <button class="lang-btn" data-lang="pt" onclick="setLang('pt')">PT</button>
+    <button class="lang-btn" data-lang="es" onclick="setLang('es')">ES</button>
+  </div>
+</div>
+<a href="index.html">Home</a><a href="products.html">Products</a><a href="about.html">About</a><a href="news.html">News</a><a href="videos.html">Videos</a><a href="contact.html">Contact</a></div>
 <main>
 <section class="hero"><div class="container"><div class="hero-content"><div class="hero-badge" data-i18n="hero_badge">About SNOWL</div><h1>30+ Years of<br><span>Marine Excellence</span></h1><p class="hero-desc">Founded in 1995, SNOWL Hong Kong Limited has grown into a globally trusted name in marine hardware — serving boat builders and yacht manufacturers across Europe and America.</p></div></div></section>
 <section class="section section--white"><div class="container"><div class="about-grid"><div class="fade-in"><img src="https://images.unsplash.com/photo-1569263979104-865ab7cd8d13?w=700&q=80" alt="SNOWL factory" style="width:100%;border-radius:16px;border:1px solid var(--c-border);box-shadow:var(--shadow-md)"></div><div class="fade-in"><div class="section-tag"> data-i18n="about_tag">Our Story</div><h2 style="font-size:var(--text-3xl);font-weight:900;color:var(--c-primary);margin-bottom:var(--sp-3)">Founded in 1995</h2><p style="color:var(--c-muted);margin-bottom:var(--sp-2);line-height:1.8">In Greek mythology, the owl was the archetype of the goddess Athena — a symbol of wisdom and navigation. SNOWL Hong Kong Limited chose the owl as its trademark, representing the crystallization of human wisdom in every product.</p><p style="color:var(--c-muted);line-height:1.8">We specialize in OWOZ series marine fasteners, deck hardware, and maritime accessories. Headquartered in Hong Kong with production facilities in Guangdong, China, our products are trusted by boat manufacturers, yacht builders, and maritime suppliers worldwide.</p></div></div></div></section>

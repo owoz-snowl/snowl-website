@@ -355,9 +355,15 @@ body {
 }
 @media (max-width: 768px) {
   .nav-links { display: none; }
-  .lang-switcher { display: none; }
   .menu-toggle { display: flex; }
   .mobile-menu { display: flex; }
+  .mobile-lang .lang-btn { background: rgba(255,255,255,0.1); color: rgba(255,255,255,0.8); border: 1px solid rgba(255,255,255,0.2); border-radius: 6px; padding: 5px 10px; font-size: 0.7rem; font-weight: 700; cursor: pointer; transition: all 0.2s; }
+  .mobile-lang .lang-btn:hover, .mobile-lang .lang-btn.active { background: var(--c-accent); color: #fff; border-color: var(--c-accent); }
+  .mobile-lang .lang-btn[data-lang="zh"] { font-size: 0.75rem; }
+  .mobile-menu { flex-direction: column; padding: 16px; gap: 4px; }
+  .mobile-menu a { color: rgba(255,255,255,0.85); font-size: 0.95rem; padding: 10px 0; border-bottom: 1px solid rgba(255,255,255,0.08); text-decoration: none; }
+  .mobile-menu a:hover { color: var(--c-accent); }
+  .mobile-menu.active { display: flex; opacity: 1; pointer-events: auto; }
   .hero { padding: 80px 0 var(--sp-8); }
   .hero h1 { font-size: var(--text-3xl); }
   .hero-stats { gap: var(--sp-4); flex-wrap: wrap; }
