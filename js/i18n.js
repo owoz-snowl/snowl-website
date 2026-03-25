@@ -190,7 +190,7 @@ const i18n = {
     vid_owoz_title: "OWOZ Marine Snap Button System",
     vid_sec_title: "Watch & Learn",
     vid_youtube_note: "More videos on our YouTube channel →"
-  
+  , prod_cat1_title: "OWOZ Fastener", prod_cat1_desc: "All-copper marine snap button bases with silver, chrome, and black chrome finishes.", prod_cat2_title: "Snap Fastener", prod_cat2_desc: "Heavy-duty stainless steel snap fasteners for demanding marine canvas applications.", prod_cat3_title: "Turn Button", prod_cat3_desc: "Precision turn buttons for secure and quick-release canvas fastening on vessels.", prod_cat4_title: "Nylon Button", prod_cat4_desc: "Lightweight nylon buttons for sailboat canvas with zero corrosion performance.", prod_cat5_title: "Installation Tools", prod_cat5_desc: "Professional installation tools and accessories for marine fastener assembly.", prod_cat6_title: "Deck Fasteners", prod_cat6_desc: "Marine panel clips for boat decks and cabin interiors. Corrosion-resistant.", cta_tag: "Get Started"
   },
   zh: {
     nav_home: '首页', nav_products: '产品', nav_about: '关于我们', nav_news: '新闻', nav_videos: '视频', nav_contact: '联系我们',
