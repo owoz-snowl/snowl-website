@@ -379,6 +379,20 @@ const i18n = {
     vid_sec_title: "观看与学习",
     vid_youtube_note: "更多视频请访问我们的YouTube频道 →"
   
+  ,
+    cta_tag: "立即开始",
+    prod_cat1_title: "OWOZ紧固件",
+    prod_cat1_desc: "全铜海洋按扣底座，银色、镀铬和黑色镀铬饰面。",
+    prod_cat2_title: "按扣紧固件",
+    prod_cat2_desc: "重型不锈钢按扣，专为严苛海洋帆布应用设计。",
+    prod_cat3_title: "旋转扣",
+    prod_cat3_desc: "精密旋转扣，为船舶帆布安全快速固定而设计。",
+    prod_cat4_title: "尼龙扣",
+    prod_cat4_desc: "轻质尼龙扣，专为帆船帆布设计，零腐蚀。",
+    prod_cat5_title: "安装工具",
+    prod_cat5_desc: "专业安装工具及配件，用于海洋紧固件组装。",
+    prod_cat6_title: "甲板紧固件",
+    prod_cat6_desc: "船舶甲板和船舱内饰用海洋面板夹，耐腐蚀。"
   },
   de: {
     nav_home: 'Startseite', nav_products: 'Produkte', nav_about: 'Über uns', nav_news: 'Neuigkeiten', nav_videos: 'Videos', nav_contact: 'Kontakt',
@@ -568,6 +582,20 @@ const i18n = {
     vid_sec_title: "Schauen & Lernen",
     vid_youtube_note: "Mehr Videos auf unserem YouTube-Kanal →"
   
+  ,
+    cta_tag: "Loslegen",
+    prod_cat1_title: "OWOZ Befestiger",
+    prod_cat1_desc: "Messing-Schnappknopf-Basen mit Silber-, Chrom- und Schwarzchrom-Ausführungen.",
+    prod_cat2_title: "Druckknopf-Befestiger",
+    prod_cat2_desc: "Schwere rostfreie Stahl-Druckknopf-Befestiger für anspruchsvolle Marine-Anwendungen.",
+    prod_cat3_title: "Drehknopf",
+    prod_cat3_desc: "Präzisions-Drehknöpfe für sichere und schnelle Canvas-Befestigung auf Schiffen.",
+    prod_cat4_title: "Nylonknopf",
+    prod_cat4_desc: "Leichte Nylon-Knöpfe für Segelboot-Planen mit null Korrosionsleistung.",
+    prod_cat5_title: "Montagewerkzeuge",
+    prod_cat5_desc: "Professionelle Montagewerkzeuge und Zubehör für Marine-Befestiger.",
+    prod_cat6_title: "Deck-Befestiger",
+    prod_cat6_desc: "Maritime Panel-Clips für Bootsdecks und Kabineninnenräume. Korrosionsbeständig."
   },
   fr: {
     nav_home: 'Accueil', nav_products: 'Produits', nav_about: 'À propos', nav_news: 'Actualités', nav_videos: 'Vidéos', nav_contact: 'Contact',
@@ -760,6 +788,20 @@ const i18n = {
     vid_sec_title: "Regarder & Apprendre",
     vid_youtube_note: "Plus de vidéos sur notre chaîne YouTube →"
   
+  ,
+    cta_tag: "Commencer",
+    prod_cat1_title: "Fixateur OWOZ",
+    prod_cat1_desc: "Bases de boutons pression marins entièrement en cuivre avec finitions argent, chrome et chrome noir.",
+    prod_cat2_title: "Fixateur à pression",
+    prod_cat2_desc: "Fixations à pression en acier inoxydable pour applications marines exigeantes.",
+    prod_cat3_title: "Bouton rotatif",
+    prod_cat3_desc: "Boutons rotatifs de précision pour une fixation sécurisée et à dégagement rapide.",
+    prod_cat4_title: "Bouton en nylon",
+    prod_cat4_desc: "Boutons en nylon légers pour toile de voilier avec zéro performance de corrosion.",
+    prod_cat5_title: "Outils de montage",
+    prod_cat5_desc: "Outils et accessoires de montage professionnels pour la fixation marine.",
+    prod_cat6_title: "Fixations de pont",
+    prod_cat6_desc: "Pinces de panneau marin pour ponts de bateau et intérieurs de cabine. Résistant à la corrosion."
   },
   ru: {
     nav_home: 'Главная', nav_products: 'Продукция', nav_about: 'О нас', nav_news: 'Новости', nav_videos: 'Видео', nav_contact: 'Контакты',
@@ -952,6 +994,20 @@ const i18n = {
     vid_sec_title: "Смотреть и учиться",
     vid_youtube_note: "Больше видео на нашем канале YouTube →"
   
+  ,
+    cta_tag: "Начать",
+    prod_cat1_title: "Крепёж OWOZ",
+    prod_cat1_desc: "Основания морских кнопок из цельной меди с серебряным, хромовым и чёрным хромовым покрытием.",
+    prod_cat2_title: "Кнопочный крепёж",
+    prod_cat2_desc: "Тяжёлые крепежи из нержавеющей стали для требовательных морских приложений.",
+    prod_cat3_title: "Поворотная кнопка",
+    prod_cat3_desc: "Прецизионные поворотные кнопки для надёжного и быстрого крепления тента.",
+    prod_cat4_title: "Нейлоновый крепёж",
+    prod_cat4_desc: "Лёгкие нейлоновые кнопки для парусных лодок с нулевой коррозией.",
+    prod_cat5_title: "Монтажные инструменты",
+    prod_cat5_desc: "Профессиональные монтажные инструменты и аксессуары для морского крепежа.",
+    prod_cat6_title: "Палубный крепёж",
+    prod_cat6_desc: "Морские панельные зажимы для палуб лодок и интерьеров кают."
   },
   pt: {
     nav_home: 'Início', nav_products: 'Produtos', nav_about: 'Sobre', nav_news: 'Notícias', nav_videos: 'Vídeos', nav_contact: 'Contato',
@@ -1144,6 +1200,20 @@ const i18n = {
     vid_sec_title: "Assistir & Aprender",
     vid_youtube_note: "Mais vídeos no nosso canal do YouTube →"
   
+  ,
+    cta_tag: "Começar",
+    prod_cat1_title: "Fixador OWOZ",
+    prod_cat1_desc: "Bases de botão de pressão marinho em cobre integral com acabamentos prata, cromo e cromo preto.",
+    prod_cat2_title: "Fixador de pressão",
+    prod_cat2_desc: "Fixadores de pressão em aço inoxidável para aplicações marítimas exigentes.",
+    prod_cat3_title: "Botão rotativo",
+    prod_cat3_desc: "Botões rotativos de precisão para fixação segura e de liberação rápida em navios.",
+    prod_cat4_title: "Botão de nylon",
+    prod_cat4_desc: "Botões de nylon leves para velas de veleiro com zero corrosão.",
+    prod_cat5_title: "Ferramentas de instalação",
+    prod_cat5_desc: "Ferramentas e acessórios profissionais para montagem de fixadores marinhos.",
+    prod_cat6_title: "Fixadores de convés",
+    prod_cat6_desc: "Presilhas de painel marinho para decks de barcos e interiores de cabine."
   },
   es: {
     nav_home: 'Inicio', nav_products: 'Productos', nav_about: 'Nosotros', nav_news: 'Noticias', nav_videos: 'Videos', nav_contact: 'Contacto',
@@ -1336,6 +1406,20 @@ const i18n = {
     vid_sec_title: "Ver y Aprender",
     vid_youtube_note: "Más videos en nuestro canal de YouTube →"
   
+  ,
+    cta_tag: "Empezar",
+    prod_cat1_title: "Sujetador OWOZ",
+    prod_cat1_desc: "Bases de botón a presión marino de cobre integral con acabados plata, cromo y cromo negro.",
+    prod_cat2_title: "Sujetador a presión",
+    prod_cat2_desc: "Sujetadores a presión de acero inoxidable para aplicaciones marines exigentes.",
+    prod_cat3_title: "Botón rotativo",
+    prod_cat3_desc: "Botones rotativos de precisión para fijación segura y de liberación rápida en embarcaciones.",
+    prod_cat4_title: "Botón de nylon",
+    prod_cat4_desc: "Botones de nylon ligeros para lonas de velero con rendimiento de corrosión cero.",
+    prod_cat5_title: "Herramientas de instalación",
+    prod_cat5_desc: "Herramientas y accesorios profesionales para montaje de sujetadores marítimos.",
+    prod_cat6_title: "Sujetadores de cubierta",
+    prod_cat6_desc: "Pinzas de panel marino para cubiertas de barcos e interiores de camarote."
   },
 
 };// Auto-apply i18n update for any elements already rendered
