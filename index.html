@@ -38,9 +38,9 @@
       <img src="LOGO/SNOWL.png" alt="SNOWL" style="height:32px;width:auto;display:block">
     </a>
     <ul class="nav-links">
-      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="index.html" class="active" data-i18n="nav_home">Home</a></li>
       <li class="has-dropdown">
-        <a href="products.html" class="dropdown-trigger">Products <span class="dropdown-arrow">▼</span></a>
+        <a href="products.html" class="dropdown-trigger" data-i18n="nav_products">Products <span class="dropdown-arrow">▼</span></a>
         <div class="dropdown-menu">
           <a href="owoz-fastener.html">OWOZ Fastener</a>
           <a href="snap-fastener.html">Snap Fastener</a>
@@ -49,10 +49,10 @@
           <a href="tool.html">TOOL</a>
         </div>
       </li>
-      <li><a href="about.html">About</a></li>
-      <li><a href="news.html">News</a></li>
-      <li><a href="videos.html">Videos</a></li>
-      <li><a href="contact.html">Contact</a></li>
+      <li><a href="about.html" data-i18n="nav_about">About</a></li>
+      <li><a href="news.html" data-i18n="nav_news">News</a></li>
+      <li><a href="videos.html" data-i18n="nav_videos">Videos</a></li>
+      <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
     </ul>
     <div class="lang-switcher">
       <button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button>
@@ -82,12 +82,12 @@
     <button class="lang-btn" data-lang="es" onclick="setLang('es')">ES</button>
   </div>
 </div>
-<a href="index.html">Home</a>
-  <a href="products.html">Products</a>
-  <a href="about.html">About</a>
-  <a href="news.html">News</a>
-  <a href="videos.html">Videos</a>
-  <a href="contact.html">Contact</a>
+<a href="index.html" data-i18n="nav_home">Home</a>
+  <a href="products.html" data-i18n="nav_products">Products</a>
+  <a href="about.html" data-i18n="nav_about">About</a>
+  <a href="news.html" data-i18n="nav_news">News</a>
+  <a href="videos.html" data-i18n="nav_videos">Videos</a>
+  <a href="contact.html" data-i18n="nav_contact">Contact</a>
 </div>
 
 <!-- Hero -->
@@ -95,28 +95,28 @@
   <div class="container">
     <div class="hero-content">
       <div class="hero-badge" data-i18n="hero_badge">Since 1995 · Marine Fastener Expert</div>
-      <h1>Premium Marine Fasteners<br><span>for Boats & Yachts Worldwide</span></h1>
-      <p class="hero-desc">SNOWL Hong Kong — leading manufacturer of OWOZ snap buttons and marine hardware. Trusted by boat manufacturers, yacht builders, and maritime suppliers across Europe and America for over 30 years.</p>
+      <h1><span data-i18n="hero_title1">Premium Marine Fasteners</span><br><span data-i18n="hero_title2">for Boats & Yachts Worldwide</span></h1>
+      <p class="hero-desc" data-i18n="hero_desc">SNOWL Hong Kong — leading manufacturer of OWOZ snap buttons and marine hardware. Trusted by boat manufacturers, yacht builders, and maritime suppliers across Europe and America for over 30 years.</p>
       <div class="hero-buttons">
-        <a href="products.html" class="btn btn-primary">View Products</a>
-        <a href="contact.html" class="btn btn-outline">Get a Quote</a>
+        <a href="products.html" class="btn btn-primary" data-i18n="hero_btn_products">View Products</a>
+        <a href="contact.html" class="btn btn-outline" data-i18n="hero_btn_contact">Get a Quote</a>
       </div>
       <div class="hero-stats">
         <div class="stat-item">
           <div class="stat-number"><span>30+</span> Years</div>
-          <div class="stat-label">Experience</div>
+          <div class="stat-label" data-i18n="stat_years">Experience</div>
         </div>
         <div class="stat-item">
           <div class="stat-number"><span>100+</span> People</div>
-          <div class="stat-label">Team</div>
+          <div class="stat-label" data-i18n="stat_people">Team</div>
         </div>
         <div class="stat-item">
           <div class="stat-number"><span>80+</span> Patents</div>
-          <div class="stat-label">Innovation</div>
+          <div class="stat-label" data-i18n="stat_patents">Innovation</div>
         </div>
         <div class="stat-item">
           <div class="stat-number"><span>20,000</span> m²</div>
-          <div class="stat-label">Factory</div>
+          <div class="stat-label" data-i18n="stat_area">Factory</div>
         </div>
       </div>
     </div>
@@ -128,38 +128,38 @@
   <div class="container">
     <div class="section-header fade-in">
       <div class="section-tag" data-i18n="sec_prod_tag">Our Products</div>
-      <h2 class="section-title">Marine-Grade Fastener Solutions</h2>
-      <p class="section-desc">From ocean-rated snap kits to deck hardware — engineered for durability in the harshest marine environments.</p>
+      <h2 class="section-title" data-i18n="sec_prod_title">Marine-Grade Fastener Solutions</h2>
+      <p class="section-desc" data-i18n="sec_prod_desc">From ocean-rated snap kits to deck hardware — engineered for durability in the harshest marine environments.</p>
     </div>
     <div class="categories-grid">
       <a href="owoz-fastener.html" class="category-card fade-in">
         <div class="category-icon"><i data-lucide="layers"></i></div>
-        <h3>Marine Snap Kits</h3>
+        <h3 data-i18n="cat1_title">Marine Snap Kits</h3>
         <p>Stainless steel snap kits rated for ocean use. Salt-resistant, rust-proof, long-lasting.</p>
       </a>
       <a href="snap-fastener.html" class="category-card fade-in">
         <div class="category-icon"><i data-lucide="clipboard-list"></i></div>
-        <h3>Deck Fasteners</h3>
+        <h3 data-i18n="cat2_title">Deck Fasteners</h3>
         <p>Bungee cords, clips and panel fasteners designed for boat decks and maritime applications.</p>
       </a>
       <a href="turn-button.html" class="category-card fade-in">
         <div class="category-icon"><i data-lucide="lock"></i></div>
-        <h3>Canvas Hardware</h3>
+        <h3 data-i18n="cat3_title">Canvas Hardware</h3>
         <p>Twist locks and turn buttons for boat canvas, bimini tops and sail covers.</p>
       </a>
       <a href="snap-fastener.html" class="category-card fade-in">
         <div class="category-icon"><i data-lucide="circle-dot"></i></div>
-        <h3>Snap Buttons</h3>
+        <h3 data-i18n="cat4_title">Snap Buttons</h3>
         <p>Marine-grade nylon and stainless steel snap buttons for heavy-duty marine use.</p>
       </a>
       <a href="nylon-button.html" class="category-card fade-in">
         <div class="category-icon"><i data-lucide="anchor"></i></div>
-        <h3>Yacht Accessories</h3>
+        <h3 data-i18n="cat5_title">Yacht Accessories</h3>
         <p>Premium yacht hardware and guitar strap locks for marine lifestyle products.</p>
       </a>
       <a href="tool.html" class="category-card fade-in">
         <div class="category-icon"><i data-lucide="wrench"></i></div>
-        <h3>Installation Tools</h3>
+        <h3 data-i18n="cat6_title">Installation Tools</h3>
         <p>Professional marine fastener installation tools and hole punches.</p>
       </a>
     </div>
@@ -175,39 +175,39 @@
         <div class="about-image-overlay">
           <div class="about-image-stat">
             <div class="num">80+</div>
-            <div class="label">Patents</div>
+            <div class="label" data-i18n="about_stat_patents">Patents</div>
           </div>
           <div class="about-image-stat">
             <div class="num">90+</div>
-            <div class="label">Products</div>
+            <div class="label" data-i18n="about_stat_products">Products</div>
           </div>
           <div class="about-image-stat">
             <div class="num">30+</div>
-            <div class="label">Years</div>
+            <div class="label" data-i18n="about_stat_years">Years</div>
           </div>
         </div>
       </div>
       <div class="about-text fade-in">
         <div class="section-tag" data-i18n="about_tag">About Us</div>
-        <h2>30+ Years Serving the Maritime Industry</h2>
-        <p>In Greek mythology, the owl was the archetype of the goddess Athena — a symbol of wisdom and navigation. SNOWL Hong Kong Limited (founded in 1995) chose the owl as its trademark, representing the crystallization of human wisdom in every product.</p>
-        <p>We specialize in OWOZ series marine fasteners, deck hardware, and maritime accessories. Our products are trusted by boat manufacturers, yacht builders, and maritime suppliers worldwide.</p>
+        <h2 data-i18n="about_title">30+ Years Serving the Maritime Industry</h2>
+        <p data-i18n="about_story_p1">In Greek mythology, the owl was the archetype of the goddess Athena — a symbol of wisdom and navigation. SNOWL Hong Kong Limited (founded in 1995) chose the owl as its trademark, representing the crystallization of human wisdom in every product.</p>
+        <p data-i18n="about_story_p2">We specialize in OWOZ series marine fasteners, deck hardware, and maritime accessories. Our products are trusted by boat manufacturers, yacht builders, and maritime suppliers worldwide.</p>
         <div class="about-highlights">
           <div class="highlight-item">
             <span class="icon"><i data-lucide="factory"></i></span>
-            <span class="label">Since 1995</span>
+            <span class="label" data-i18n="about_hl_1995">Since 1995</span>
           </div>
           <div class="highlight-item">
             <span class="icon"><i data-lucide="clock"></i></span>
-            <span class="label">24/7 Service</span>
+            <span class="label" data-i18n="about_hl_247">24/7 Service</span>
           </div>
           <div class="highlight-item">
             <span class="icon"><i data-lucide="file-badge"></i></span>
-            <span class="label">80+ Patents</span>
+            <span class="label" data-i18n="about_hl_patents">80+ Patents</span>
           </div>
           <div class="highlight-item">
             <span class="icon"><i data-lucide="box"></i></span>
-            <span class="label">90+ Products</span>
+            <span class="label" data-i18n="about_hl_products">90+ Products</span>
           </div>
         </div>
       </div>
@@ -220,29 +220,29 @@
   <div class="container">
     <div class="section-header fade-in">
       <div class="section-tag" data-i18n="adv_tag">Why SNOWL</div>
-      <h2 class="section-title">Why Choose Us</h2>
-      <p class="section-desc">People-oriented, guests first — the principles that guide every product we make.</p>
+      <h2 class="section-title" data-i18n="adv_title">Why Choose Us</h2>
+      <p class="section-desc" data-i18n="adv_desc">People-oriented, guests first — the principles that guide every product we make.</p>
     </div>
     <div class="advantages-grid">
       <div class="advantage-card fade-in">
         <div class="advantage-icon"><i data-lucide="anchor"></i></div>
-        <h3>Marine-Grade</h3>
-        <p>Every product is tested for salt water, UV, and harsh marine conditions.</p>
+        <h3 data-i18n="adv_quality_title">Marine-Grade</h3>
+        <p data-i18n="adv_quality_desc">Every product is tested for salt water, UV, and harsh marine conditions.</p>
       </div>
       <div class="advantage-card fade-in">
         <div class="advantage-icon"><i data-lucide="lightbulb"></i></div>
-        <h3>80+ Patents</h3>
-        <p>Continuous innovation with proprietary OWOZ technology.</p>
+        <h3 data-i18n="adv_patent_title">80+ Patents</h3>
+        <p data-i18n="adv_patent_desc">Continuous innovation with proprietary OWOZ technology.</p>
       </div>
       <div class="advantage-card fade-in">
         <div class="advantage-icon"><i data-lucide="ship"></i></div>
-        <h3>Global Shipping</h3>
-        <p>Worldwide delivery from Hong Kong to ports across Europe and America.</p>
+        <h3 data-i18n="adv_delivery_title">Global Shipping</h3>
+        <p data-i18n="adv_delivery_desc">Worldwide delivery from Hong Kong to ports across Europe and America.</p>
       </div>
       <div class="advantage-card fade-in">
         <div class="advantage-icon"><i data-lucide="headphones"></i></div>
-        <h3>24/7 Support</h3>
-        <p>Dedicated team ready to assist with product selection and technical support.</p>
+        <h3 data-i18n="adv_support_title">24/7 Support</h3>
+        <p data-i18n="adv_support_desc">Dedicated team ready to assist with product selection and technical support.</p>
       </div>
     </div>
   </div>
@@ -253,8 +253,8 @@
   <div class="container">
     <div class="section-header fade-in">
       <div class="section-tag" data-i18n="sec_show_tag">Featured</div>
-      <h2 class="section-title">Popular Marine Products</h2>
-      <p class="section-desc">Discover our most trusted marine fastener solutions used by boat builders worldwide.</p>
+      <h2 class="section-title" data-i18n="sec_show_title">Popular Marine Products</h2>
+      <p class="section-desc" data-i18n="sec_show_desc">Discover our most trusted marine fastener solutions used by boat builders worldwide.</p>
     </div>
     <div class="products-grid">
       <a href="owoz-fastener.html" class="product-card fade-in">
@@ -263,8 +263,8 @@
           <span class="product-tag">HOT</span>
         </div>
         <div class="product-info">
-          <h3>OWOZ Chrome Snap Kit</h3>
-          <p>Chrome copper OWOZ snap kit for marine canvas. Premium chrome finish, salt-resistant and rust-proof.</p>
+          <h3 data-i18n="prod1_title">OWOZ Chrome Snap Kit</h3>
+          <p data-i18n="prod1_desc">Chrome copper OWOZ snap kit for marine canvas. Premium chrome finish, salt-resistant and rust-proof.</p>
           <div class="product-tags">
             <span class="product-tag-item">OWOZ</span>
             <span class="product-tag-item">Copper</span>
@@ -277,8 +277,8 @@
           <span class="product-tag">HOT</span>
         </div>
         <div class="product-info">
-          <h3>316 SS Deck Fastener 16MM</h3>
-          <p>Silver 316 stainless steel snap fastener with 16MM stud. Marine-grade, corrosion-resistant.</p>
+          <h3 data-i18n="prod2_title">316 SS Deck Fastener 16MM</h3>
+          <p data-i18n="prod2_desc">Silver 316 stainless steel snap fastener with 16MM stud. Marine-grade, corrosion-resistant.</p>
           <div class="product-tags">
             <span class="product-tag-item">316 SS</span>
             <span class="product-tag-item">Marine</span>
@@ -291,8 +291,8 @@
           <span class="product-tag">NEW</span>
         </div>
         <div class="product-info">
-          <h3>OWOZ Chrome Canvas Fastener</h3>
-          <p>Chrome copper snap kit with 8MM stud for marine canvas and bimini tops. Salt-resistant.</p>
+          <h3 data-i18n="prod3_title">OWOZ Chrome Canvas Fastener</h3>
+          <p data-i18n="prod3_desc">Chrome copper snap kit with 8MM stud for marine canvas and bimini tops. Salt-resistant.</p>
           <div class="product-tags">
             <span class="product-tag-item">OWOZ</span>
             <span class="product-tag-item">Copper</span>
@@ -305,8 +305,8 @@
           <span class="product-tag">NEW</span>
         </div>
         <div class="product-info">
-          <h3>Elastic Tension Nylon Button</h3>
-          <p>UV-resistant elastic tension nylon snap button in black. Quick tension adjustment for marine canvas and tents.</p>
+          <h3 data-i18n="prod4_title">Elastic Tension Nylon Button</h3>
+          <p data-i18n="prod4_desc">UV-resistant elastic tension nylon snap button in black. Quick tension adjustment for marine canvas and tents.</p>
           <div class="product-tags">
             <span class="product-tag-item">Nylon</span>
             <span class="product-tag-item">UV-Resistant</span>
@@ -319,8 +319,8 @@
           <span class="product-tag">HOT</span>
         </div>
         <div class="product-info">
-          <h3>4000A Series Snap Fastener</h3>
-          <p>Heavy-duty stainless steel snap fastener. Marine-grade, corrosion-resistant for demanding marine canvas applications.</p>
+          <h3 data-i18n="prod5_title">4000A Series Snap Fastener</h3>
+          <p data-i18n="prod5_desc">Heavy-duty stainless steel snap fastener. Marine-grade, corrosion-resistant for demanding marine canvas applications.</p>
           <div class="product-tags">
             <span class="product-tag-item">SNAP</span>
             <span class="product-tag-item">Marine</span>
@@ -333,8 +333,8 @@
           <span class="product-tag">HOT</span>
         </div>
         <div class="product-info">
-          <h3>RAUX Marine Fastener Kit</h3>
-          <p>Quick-release marine fastener system for boat canvas, bimini tops and heavy-duty marine applications.</p>
+          <h3 data-i18n="prod6_title">RAUX Marine Fastener Kit</h3>
+          <p data-i18n="prod6_desc">Quick-release marine fastener system for boat canvas, bimini tops and heavy-duty marine applications.</p>
           <div class="product-tags">
             <span class="product-tag-item">RAUX</span>
             <span class="product-tag-item">Marine</span>
@@ -350,29 +350,29 @@
   <div class="container">
     <div class="section-header fade-in">
       <div class="section-tag" data-i18n="proc_tag">How to Order</div>
-      <h2 class="section-title">Simple 4-Step Process</h2>
-      <p class="section-desc">From inquiry to delivery — we make it seamless for marine suppliers worldwide.</p>
+      <h2 class="section-title" data-i18n="proc_title">Simple 4-Step Process</h2>
+      <p class="section-desc" data-i18n="proc_desc">From inquiry to delivery — we make it seamless for marine suppliers worldwide.</p>
     </div>
     <div class="process-grid">
       <div class="process-step fade-in">
         <div class="step-number">1</div>
-        <h3>Send Inquiry</h3>
-        <p>Contact us with your boat model and fastener requirements</p>
+        <h3 data-i18n="step1">Send Inquiry</h3>
+        <p data-i18n="step1d">Contact us with your boat model and fastener requirements</p>
       </div>
       <div class="process-step fade-in">
         <div class="step-number">2</div>
-        <h3>Get Quote</h3>
-        <p>We provide competitive pricing within 24 hours</p>
+        <h3 data-i18n="step2">Get Quote</h3>
+        <p data-i18n="step2d">We provide competitive pricing within 24 hours</p>
       </div>
       <div class="process-step fade-in">
         <div class="step-number">3</div>
-        <h3>Sample Test</h3>
-        <p>Request samples for quality testing before bulk orders</p>
+        <h3 data-i18n="step3">Sample Test</h3>
+        <p data-i18n="step3d">Request samples for quality testing before bulk orders</p>
       </div>
       <div class="process-step fade-in">
         <div class="step-number">4</div>
-        <h3>Ship Worldwide</h3>
-        <p>Fast production and international shipping to your port</p>
+        <h3 data-i18n="step4">Ship Worldwide</h3>
+        <p data-i18n="step4d">Fast production and international shipping to your port</p>
       </div>
     </div>
   </div>
@@ -383,32 +383,32 @@
   <div class="container">
     <div class="section-header fade-in">
       <div class="section-tag" data-i18n="news_tag">Latest News</div>
-      <h2 class="section-title">Industry News</h2>
-      <p class="section-desc">Stay updated with the latest trends in marine hardware and boat manufacturing.</p>
+      <h2 class="section-title" data-i18n="news_title">Industry News</h2>
+      <p class="section-desc" data-i18n="news_desc">Stay updated with the latest trends in marine hardware and boat manufacturing.</p>
     </div>
     <div class="news-grid">
       <div class="news-card fade-in">
         <div class="news-image"><img src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=600&q=80" alt="Marine Snap Kit" loading="lazy"></div>
         <div class="news-content">
           <div class="news-date">Mar 15, 2026</div>
-          <h3>New OWOZ Marine Snap Kit Series Launches</h3>
-          <p>Our latest marine-grade snap kit series features enhanced salt resistance for extended ocean voyages.</p>
+          <h3 data-i18n="news1_title">New OWOZ Marine Snap Kit Series Launches</h3>
+          <p data-i18n="news1_desc">Our latest marine-grade snap kit series features enhanced salt resistance for extended ocean voyages.</p>
         </div>
       </div>
       <div class="news-card fade-in">
         <div class="news-image"><img src="https://images.unsplash.com/photo-1567899378494-47b22a2ae96a?w=600&q=80" alt="Yacht Trends" loading="lazy"></div>
         <div class="news-content">
           <div class="news-date">Feb 28, 2026</div>
-          <h3>Yacht Hardware Trends 2026: Lightweight & Durable</h3>
-          <p>The marine industry continues to move toward lightweight, corrosion-resistant fastener solutions.</p>
+          <h3 data-i18n="news2_title">Yacht Hardware Trends 2026: Lightweight & Durable</h3>
+          <p data-i18n="news2_desc">The marine industry continues to move toward lightweight, corrosion-resistant fastener solutions.</p>
         </div>
       </div>
       <div class="news-card fade-in">
         <div class="news-image"><img src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=600&q=80" alt="European Expansion" loading="lazy"></div>
         <div class="news-content">
           <div class="news-date">Jan 20, 2026</div>
-          <h3>SNOWL Expands European Distribution Network</h3>
-          <p>We are proud to announce new distribution partnerships across Northern Europe and the Mediterranean.</p>
+          <h3 data-i18n="news3_title">SNOWL Expands European Distribution Network</h3>
+          <p data-i18n="news3_desc">We are proud to announce new distribution partnerships across Northern Europe and the Mediterranean.</p>
         </div>
       </div>
     </div>
@@ -420,19 +420,19 @@
   <div class="container">
     <div class="section-header fade-in">
       <div class="section-tag" data-i18n="vid_tag">Videos</div>
-      <h2 class="section-title">How to Videos</h2>
-      <p class="section-desc">Watch tutorials on marine fastener installation and product demonstrations.</p>
+      <h2 class="section-title" data-i18n="vid_title">How to Videos</h2>
+      <p class="section-desc" data-i18n="vid_desc">Watch tutorials on marine fastener installation and product demonstrations.</p>
     </div>
     <div class="videos-placeholder">
-      <p><strong>Video tutorials coming soon!</strong></p>
-      <p>Our team is preparing installation guides for:</p>
+      <p data-i18n="vid_placeholder_title"><strong>Video tutorials coming soon!</strong></p>
+      <p data-i18n="vid_placeholder_sub">Our team is preparing installation guides for:</p>
       <p>
-        <i data-lucide="check-circle" style="display:inline;vertical-align:middle;margin-right:6px;color:var(--c-accent)"></i>Marine Snap Kit Installation<br>
-        <i data-lucide="check-circle" style="display:inline;vertical-align:middle;margin-right:6px;color:var(--c-accent)"></i>Deck Panel Fastener Setup<br>
-        <i data-lucide="check-circle" style="display:inline;vertical-align:middle;margin-right:6px;color:var(--c-accent)"></i>Bimini Top Twist Lock Assembly<br>
-        <i data-lucide="check-circle" style="display:inline;vertical-align:middle;margin-right:6px;color:var(--c-accent)"></i>Yacht Hardware Maintenance
+        <i data-lucide="check-circle" style="display:inline;vertical-align:middle;margin-right:6px;color:var(--c-accent)"></i><span data-i18n="vid_list1">Marine Snap Kit Installation</span><br>
+        <i data-lucide="check-circle" style="display:inline;vertical-align:middle;margin-right:6px;color:var(--c-accent)"></i><span data-i18n="vid_list2">Deck Panel Fastener Setup</span><br>
+        <i data-lucide="check-circle" style="display:inline;vertical-align:middle;margin-right:6px;color:var(--c-accent)"></i><span data-i18n="vid_list3">Bimini Top Twist Lock Assembly</span><br>
+        <i data-lucide="check-circle" style="display:inline;vertical-align:middle;margin-right:6px;color:var(--c-accent)"></i><span data-i18n="vid_list4">Yacht Hardware Maintenance</span>
       </p>
-      <p style="margin-top:24px">Subscribe to our newsletter or follow us for updates.</p>
+      <p style="margin-top:24px" data-i18n="vid_placeholder_footer">Subscribe to our newsletter or follow us for updates.</p>
     </div>
   </div>
 </section>
@@ -443,53 +443,53 @@
     <div class="contact-grid">
       <div class="contact-info fade-in">
         <div class="section-tag" data-i18n="contact_tag">Contact Us</div>
-        <h2>Let's Talk</h2>
-        <p>Whether you need a custom marine solution or standard product — we're here to help.</p>
+        <h2 data-i18n="contact_title">Let's Talk</h2>
+        <p data-i18n="contact_desc">Whether you need a custom marine solution or standard product — we're here to help.</p>
         <div class="contact-details">
           <div class="contact-item">
             <div class="contact-icon"><i data-lucide="map-pin"></i></div>
             <div>
-              <div class="label">Address</div>
-              <div class="value">Hong Kong, China</div>
+              <div class="label" data-i18n="addr_label">Address</div>
+              <div class="value" data-i18n="addr_value">Hong Kong, China</div>
             </div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><i data-lucide="mail"></i></div>
             <div>
-              <div class="label">Email</div>
-              <div class="value">owoz@snowl.top</div>
+              <div class="label" data-i18n="email_label">Email</div>
+              <div class="value" data-i18n="email_value">owoz@snowl.top</div>
             </div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><i data-lucide="phone"></i></div>
             <div>
-              <div class="label">Phone</div>
-              <div class="value">+86-757-87768348</div>
+              <div class="label" data-i18n="phone_label">Phone</div>
+              <div class="value" data-i18n="phone_value">+86-757-87768348</div>
             </div>
           </div>
           <div class="contact-item">
             <div class="contact-icon"><i data-lucide="clock"></i></div>
             <div>
-              <div class="label">Hours</div>
-              <div class="value">Mon–Sat 9:00–18:00 (UTC+8)</div>
+              <div class="label" data-i18n="hours_label">Hours</div>
+              <div class="value" data-i18n="hours_value">Mon–Sat 9:00–18:00 (UTC+8)</div>
             </div>
           </div>
         </div>
       </div>
       <div class="contact-form fade-in">
-        <h3 class="form-title">Send Us a Message</h3>
+        <h3 class="form-title" data-i18n="form_title">Send Us a Message</h3>
         <form id="contactForm" action="https://formsubmit.co/owoz@snowl.top" method="POST">
           <input type="hidden" name="_subject" value="New Inquiry from SNOWL Website">
           <input type="hidden" name="_captcha" value="false">
           <div class="form-row">
-            <div class="form-group"><label>Your Name</label><input type="text" name="name" required></div>
-            <div class="form-group"><label>Email Address</label><input type="email" name="email" required></div>
+            <div class="form-group"><label data-i18n="form_name">Your Name</label><input type="text" name="name" required></div>
+            <div class="form-group"><label data-i18n="form_email">Email Address</label><input type="email" name="email" required></div>
           </div>
           <div class="form-row">
-            <div class="form-group"><label>Company Name</label><input type="text" name="company"></div>
-            <div class="form-group"><label>Country</label><input type="text" name="country"></div>
+            <div class="form-group"><label data-i18n="form_company">Company Name</label><input type="text" name="company"></div>
+            <div class="form-group"><label data-i18n="form_country">Country</label><input type="text" name="country"></div>
           </div>
-          <div class="form-group"><label>Product Interest</label>
+          <div class="form-group"><label data-i18n="form_product">Product Interest</label>
             <select name="product">
               <option value="">Select a product</option>
               <option>Marine Snap Kits</option>
@@ -501,10 +501,10 @@
               <option>Other</option>
             </select>
           </div>
-          <div class="form-group"><label>Your Message</label><textarea name="message" rows="4" placeholder="Tell us about your boat model, requirements, quantity..."></textarea></div>
-          <button type="submit" class="btn btn-primary form-submit">Send Inquiry</button>
+          <div class="form-group"><label data-i18n="form_message">Your Message</label><textarea name="message" rows="4" placeholder="Tell us about your boat model, requirements, quantity..." data-i18n-placeholder="form_msg_plh"></textarea></div>
+          <button type="submit" class="btn btn-primary form-submit" data-i18n="form_submit">Send Inquiry</button>
         </form>
-        <div class="success-message" id="formSuccess">Thank you! We'll respond within 24 hours.</div>
+        <div class="success-message" id="formSuccess"><span data-i18n="form_success">Thank you! We'll respond within 24 hours.</span></div>
       </div>
     </div>
   </div>
@@ -516,10 +516,10 @@
     <div class="footer-grid">
       <div class="footer-brand">
         <a href="index.html" class="nav-logo"><img src="LOGO/SNOWL.png" alt="SNOWL" style="height:32px;width:auto;display:block"></a>
-        <p>SNOWL Hong Kong Limited — precision marine fastener manufacturer since 1995. Trusted by boat builders and yacht manufacturers worldwide.</p>
+        <p data-i18n="footer_brand_desc">SNOWL Hong Kong Limited — precision marine fastener manufacturer since 1995. Trusted by boat builders and yacht manufacturers worldwide.</p>
       </div>
       <div class="footer-col">
-        <h4> data-i18n="f_prod">Products</h4>
+        <h4 data-i18n="f_prod">Products</h4>
         <ul>
           <li><a href="owoz-fastener.html">Marine Snap Kits</a></li>
           <li><a href="snap-fastener.html">Deck Fasteners</a></li>
@@ -528,16 +528,16 @@
         </ul>
       </div>
       <div class="footer-col">
-        <h4> data-i18n="f_company">Company</h4>
+        <h4 data-i18n="f_company">Company</h4>
         <ul>
           <li><a href="about.html">About Us</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="videos.html">Videos</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="news.html" data-i18n="nav_news">News</a></li>
+          <li><a href="videos.html" data-i18n="nav_videos">Videos</a></li>
+          <li><a href="contact.html" data-i18n="nav_contact">Contact</a></li>
         </ul>
       </div>
       <div class="footer-col">
-        <h4> data-i18n="f_contact">Contact</h4>
+        <h4 data-i18n="f_contact">Contact</h4>
         <ul>
           <li>📞 +86-757-87768348</li>
           <li>📧 owoz@snowl.top</li>
@@ -547,7 +547,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      <p> data-i18n="f_copy">© 2025 SNOWL HONG KONG. All Rights Reserved.</p>
+      <p data-i18n="f_copy">© 2025 SNOWL HONG KONG. All Rights Reserved.</p>
     </div>
   </div>
 </footer>
