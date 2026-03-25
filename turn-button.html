@@ -50,13 +50,13 @@
       <li><a href="contact.html">Contact</a></li>
     </ul>
     <div class="lang-switcher">
-      <button class="lang-btn active" data-lang="en">EN</button>
+      <button class="lang-btn active" data-lang="en" onclick="setLang(\'en\')">EN</button>
       <button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中</button>
-      <button class="lang-btn" data-lang="de">DE</button>
-      <button class="lang-btn" data-lang="fr">FR</button>
-      <button class="lang-btn" data-lang="ru">RU</button>
-      <button class="lang-btn" data-lang="pt">PT</button>
-      <button class="lang-btn" data-lang="es">ES</button>
+      <button class="lang-btn" data-lang="de" onclick="setLang('de')">DE</button>
+      <button class="lang-btn" data-lang="fr" onclick="setLang('fr')">FR</button>
+      <button class="lang-btn" data-lang="ru" onclick="setLang('ru')">RU</button>
+      <button class="lang-btn" data-lang="pt" onclick="setLang('pt')">PT</button>
+      <button class="lang-btn" data-lang="es" onclick="setLang('es')">ES</button>
     </div>
     <button class="menu-toggle" id="menuToggle" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
@@ -98,7 +98,7 @@
         <img src="turn-button-banner.jpg" alt="Turn Button" style="width:100%;border-radius:16px;border:1px solid var(--c-border);box-shadow:var(--shadow-md)">
       </div>
       <div class="fade-in">
-        <div class="section-tag"> data-i18n="prod_overview">Product Overview</div>
+        <div class="section-tag" data-i18n="prod_overview">Product Overview</div>
         <h2 style="font-size:var(--text-3xl);font-weight:900;color:var(--c-primary);margin-bottom:var(--sp-3)">Turn Button</h2>
         <p style="color:var(--c-muted);margin-bottom:var(--sp-4);line-height:1.8">Precision-engineered turn buttons for secure and quick-release canvas fastening. Designed for professional marine and outdoor applications where reliability and ease of use are essential.</p>
         <div class="about-highlights">
@@ -112,7 +112,7 @@
 <section class="section section--sand">
   <div class="container">
     <div class="section-header fade-in">
-      <div class="section-tag"> data-i18n="spec_title">Specifications</div>
+      <div class="section-tag" data-i18n="spec_title">Specifications</div>
       <h2 class="section-title">Technical Details</h2>
     </div>
     <div style="background:var(--c-white);border:1px solid var(--c-border);border-radius:var(--r-lg);overflow:hidden;max-width:700px;margin:0 auto;box-shadow:var(--shadow-sm)">
@@ -128,7 +128,7 @@
 <section class="section section--sand">
   <div class="container">
     <div class="section-header fade-in" style="margin-bottom:32px">
-      <div class="section-tag"> data-i18n="series_tag">Product Series</div>
+      <div class="section-tag" data-i18n="series_tag">Product Series</div>
       <h2 class="section-title">Turn Button Series</h2>
       <p class="section-desc">Browse our turn button lineup below.</p>
     </div>
