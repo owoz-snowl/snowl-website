@@ -197,7 +197,7 @@ const i18n={
     vid_tag:"Videos",
     vid_title:"Vid Title",
     vid_youtube_note:"More videos on our YouTube channel →",
-},
+  },
   zh:{
     about_facility_area:"5,000平方米",
     about_facility_desc1:"位于广东佛山的现代化生产基地占地超过5,000平方米。",
@@ -207,16 +207,16 @@ const i18n={
     about_hero_desc:"SNOWL香港有限公司创立于1995年，已成长为全球信赖的海事五金品牌。",
     about_hero_title:"30余年海事行业深耕",
     about_hero_title2:"海事行业卓越",
-    about_hl_1995:"About Hl 1995",
-    about_hl_247:"About Hl 247",
-    about_hl_patents:"About Hl Patents",
-    about_hl_products:"About Hl Products",
+    about_hl_1995:"创立于1995年",
+    about_hl_247:"全球合作伙伴",
+    about_hl_patents:"专利认证",
+    about_hl_products:"产品种类",
     about_quick_btn:"联系我们 >",
     about_quick_desc:"无论您是船舶制造商还是海事供应商，我们都期待与您合作。",
     about_quick_title:"准备合作了吗？",
-    about_stat_patents:"About Stat Patents",
-    about_stat_products:"About Stat Products",
-    about_stat_years:"About Stat Years",
+    about_stat_patents:"专利",
+    about_stat_products:"产品",
+    about_stat_years:"年",
     about_story_p1:"SNOWL香港有限公司创立于1995年。",
     about_story_p2:"我们对质量和创新的执着使我们成为全球船舶制造商的首选合作伙伴。",
     about_story_title:"我们的故事",
@@ -301,7 +301,7 @@ const i18n={
     news_metstrade_title:"SNOWL参展METSTRADE 2025——阿姆斯特丹见！",
     news_miami_desc:"欢迎莅临2025年迈阿密国际船艇展，与SNOWL团队会面。",
     news_miami_title:"SNOWL参展2025年迈阿密国际船艇展",
-    news_ss316_desc:"在盐水环境中，SS316相比SS304具有卓越的耐腐蚀性能。",
+    news_ss316_desc:"在盐水中SS316比SS304具有更卓越的耐腐蚀性能。",
     news_ss316_title:"SS316与SS304：海洋用途选哪种不锈钢？",
     news_sustainable_desc:"SNOWL推出使用再生材料的新型环保包装计划。",
     news_sustainable_title:"SNOWL启动可持续发展包装计划",
@@ -312,7 +312,7 @@ const i18n={
     phone_label:"Phone",
     phone_value:"+86-XXX-XXXX-XXXX",
     proc_desc:"From inquiry to delivery — we make it seamless for marine suppliers worldwide.",
-    proc_tag:"How to Order",
+    proc_tag:"产品",
     proc_title:"Proc Title",
     prod1_desc:"Prod1 Desc",
     prod1_title:"Prod1 Title",
@@ -395,7 +395,7 @@ const i18n={
     vid_tag:"视频",
     vid_title:"Vid Title",
     vid_youtube_note:"更多视频请访问YouTube频道 >",
-},
+  },
   de:{
     about_facility_area:"5,000 m²",
     about_facility_desc1:"Our modern production facility in Foshan, Guangdong spans over 20,000 square meters with automated manufacturing lines, rigorous quality control labs, and professional R&D centers.",
@@ -593,7 +593,7 @@ const i18n={
     vid_tag:"Videos",
     vid_title:"Vid Title",
     vid_youtube_note:"More videos on our YouTube channel →",
-},
+  },
   fr:{
     about_facility_area:"5,000 m²",
     about_facility_desc1:"Our modern production facility in Foshan, Guangdong spans over 20,000 square meters with automated manufacturing lines, rigorous quality control labs, and professional R&D centers.",
@@ -791,7 +791,7 @@ const i18n={
     vid_tag:"Videos",
     vid_title:"Vid Title",
     vid_youtube_note:"More videos on our YouTube channel →",
-},
+  },
   ru:{
     about_facility_area:"5,000 m²",
     about_facility_desc1:"Our modern production facility in Foshan, Guangdong spans over 20,000 square meters with automated manufacturing lines, rigorous quality control labs, and professional R&D centers.",
@@ -989,7 +989,7 @@ const i18n={
     vid_tag:"Videos",
     vid_title:"Vid Title",
     vid_youtube_note:"More videos on our YouTube channel →",
-},
+  },
   pt:{
     about_facility_area:"5,000 m²",
     about_facility_desc1:"Our modern production facility in Foshan, Guangdong spans over 20,000 square meters with automated manufacturing lines, rigorous quality control labs, and professional R&D centers.",
@@ -1187,7 +1187,7 @@ const i18n={
     vid_tag:"Videos",
     vid_title:"Vid Title",
     vid_youtube_note:"More videos on our YouTube channel →",
-},
+  },
   es:{
     about_facility_area:"5,000 m²",
     about_facility_desc1:"Our modern production facility in Foshan, Guangdong spans over 20,000 square meters with automated manufacturing lines, rigorous quality control labs, and professional R&D centers.",
@@ -1385,7 +1385,8 @@ const i18n={
     vid_tag:"Videos",
     vid_title:"Vid Title",
     vid_youtube_note:"More videos on our YouTube channel →",
-}};
+  }
+};
 function getLang(){const p=new URLSearchParams(window.location.search);return p.get("lang")||localStorage.getItem("lang")||"en";}
 function setLang(lang){localStorage.setItem("lang",lang);document.querySelectorAll("[data-i18n]").forEach(el=>{const k=el.getAttribute("data-i18n");if(i18n[lang]&&i18n[lang][k]){if(el.tagName==="INPUT"||el.tagName==="TEXTAREA"){el.placeholder=i18n[lang][k];}else{el.textContent=i18n[lang][k];}}});document.querySelectorAll(".lang-btn").forEach(b=>b.classList.toggle("active",b.dataset.lang===lang));document.documentElement.lang=lang;const u=new URL(window.location);u.searchParams.set("lang",lang);window.history.replaceState({},null,u);}
 document.addEventListener("DOMContentLoaded",()=>setLang(getLang()));
