@@ -189,8 +189,24 @@ const i18n = {
     vid_owoz_desc: "OWOZ marine snap button system — corrosion-resistant copper bases for ocean use.",
     vid_owoz_title: "OWOZ Marine Snap Button System",
     vid_sec_title: "Watch & Learn",
-    vid_youtube_note: "More videos on our YouTube channel →"
-  , prod_cat1_title: "OWOZ Fastener", prod_cat1_desc: "All-copper marine snap button bases with silver, chrome, and black chrome finishes.", prod_cat2_title: "Snap Fastener", prod_cat2_desc: "Heavy-duty stainless steel snap fasteners for demanding marine canvas applications.", prod_cat3_title: "Turn Button", prod_cat3_desc: "Precision turn buttons for secure and quick-release canvas fastening on vessels.", prod_cat4_title: "Nylon Button", prod_cat4_desc: "Lightweight nylon buttons for sailboat canvas with zero corrosion performance.", prod_cat5_title: "Installation Tools", prod_cat5_desc: "Professional installation tools and accessories for marine fastener assembly.", prod_cat6_title: "Deck Fasteners", prod_cat6_desc: "Marine panel clips for boat decks and cabin interiors. Corrosion-resistant.", cta_tag: "Get Started"
+        vid_youtube_note: "More videos on our YouTube channel \u2192",
+    prod_cat1_title: "OWOZ Fastener",
+    prod_cat1_desc: "All-copper marine snap button bases with silver, chrome, and black chrome finishes.",
+    prod_cat2_title: "Snap Fastener",
+    prod_cat2_desc: "Heavy-duty stainless steel snap fasteners for demanding marine canvas applications.",
+    prod_cat3_title: "Turn Button",
+    prod_cat3_desc: "Precision turn buttons for secure and quick-release canvas fastening on vessels.",
+    prod_cat4_title: "Nylon Button",
+    prod_cat4_desc: "Lightweight nylon buttons for sailboat canvas with zero corrosion performance.",
+    prod_cat5_title: "Installation Tools",
+    prod_cat5_desc: "Professional installation tools and accessories for marine fastener assembly.",
+    prod_cat6_title: "Deck Fasteners",
+    prod_cat6_desc: "Marine panel clips for boat decks and cabin interiors. Corrosion-resistant.",
+    cta_tag: "Get Started",
+    turn_hero_title: "Turn Button Series",
+    turn_hero_desc: "Precision-engineered turn buttons for marine canvas applications. Secure, reliable, and easy to operate in harsh conditions.",
+    turn_hero_title: "Turn Button Series",
+    turn_hero_desc: "Precision-engineered turn buttons for marine canvas applications. Secure, reliable, and easy to operate in harsh conditions.",
   },
   zh: {
     nav_home: '首页', nav_products: '产品', nav_about: '关于我们', nav_news: '新闻', nav_videos: '视频', nav_contact: '联系我们',
@@ -379,6 +395,8 @@ const i18n = {
     vid_sec_title: "观看与学习",
     vid_youtube_note: "更多视频请访问我们的YouTube频道 →"
   
+    turn_hero_title: "旋钮系列",
+    turn_hero_desc: "精密设计的旋钮，专为海洋帆布应用而生。在恶劣条件下安全、可靠、易操作。",
   },
   de: {
     nav_home: 'Startseite', nav_products: 'Produkte', nav_about: 'Über uns', nav_news: 'Neuigkeiten', nav_videos: 'Videos', nav_contact: 'Kontakt',
@@ -568,6 +586,8 @@ const i18n = {
     vid_sec_title: "Schauen & Lernen",
     vid_youtube_note: "Mehr Videos auf unserem YouTube-Kanal →"
   
+    turn_hero_title: "Drehknopf-Serie",
+    turn_hero_desc: "Präzisions-Drehknöpfe für Marine-Canvas-Anwendungen. Sicher, zuverlässig und einfach zu bedienen.",
   },
   fr: {
     nav_home: 'Accueil', nav_products: 'Produits', nav_about: 'À propos', nav_news: 'Actualités', nav_videos: 'Vidéos', nav_contact: 'Contact',
@@ -760,6 +780,8 @@ const i18n = {
     vid_sec_title: "Regarder & Apprendre",
     vid_youtube_note: "Plus de vidéos sur notre chaîne YouTube →"
   
+    turn_hero_title: "Série de Boutons Tournevis",
+    turn_hero_desc: "Boutons tourne-disques de précision pour applications de toile marine.",
   },
   ru: {
     nav_home: 'Главная', nav_products: 'Продукция', nav_about: 'О нас', nav_news: 'Новости', nav_videos: 'Видео', nav_contact: 'Контакты',
@@ -952,6 +974,8 @@ const i18n = {
     vid_sec_title: "Смотреть и учиться",
     vid_youtube_note: "Больше видео на нашем канале YouTube →"
   
+    turn_hero_title: "Серия поворотных кнопок",
+    turn_hero_desc: "Точные поворотные кнопки для морских тентовых приложений.",
   },
   pt: {
     nav_home: 'Início', nav_products: 'Produtos', nav_about: 'Sobre', nav_news: 'Notícias', nav_videos: 'Vídeos', nav_contact: 'Contato',
@@ -1144,6 +1168,8 @@ const i18n = {
     vid_sec_title: "Assistir & Aprender",
     vid_youtube_note: "Mais vídeos no nosso canal do YouTube →"
   
+    turn_hero_title: "Série de Botões Giratórios",
+    turn_hero_desc: "Botões giratórios de precisão para aplicações de lona marinha.",
   },
   es: {
     nav_home: 'Inicio', nav_products: 'Productos', nav_about: 'Nosotros', nav_news: 'Noticias', nav_videos: 'Videos', nav_contact: 'Contacto',
@@ -1336,76 +1362,9 @@ const i18n = {
     vid_sec_title: "Ver y Aprender",
     vid_youtube_note: "Más videos en nuestro canal de YouTube →"
   
-  },,
-
-    about_facility_area: "5,000 m\u00b2",
-    about_facility_desc1: "Our modern production facility in Foshan, Guangdong spans over 5,000 square meters with automated manufacturing lines.",
-    about_facility_desc2: "Every product undergoes multiple quality checks from raw material inspection to final packaging.",
-    about_facility_header: "Factory",
-    about_facility_title: "State-of-the-Art Manufacturing",
-    about_hero_desc: "Founded in 1995, SNOWL Hong Kong Limited has grown into a globally trusted name in marine hardware.",
-    about_hero_title: "30+ Years of Marine Excellence",
-    about_hero_title2: "Marine Excellence",
-    about_quick_btn: "Get in Touch \u2192",
-    about_quick_desc: "Whether you are a boat manufacturer, yacht builder, or maritime supplier, we would love to hear from you.",
-    about_quick_title: "Ready to Partner?",
-    contact_addr: "Foshan, Guangdong, China",
-    contact_hero_desc: "We would love to hear from you. Get in touch for product inquiries, custom solutions, and competitive bulk pricing.",
-    contact_hours: "Mon-Sat 9:00-18:00 (UTC+8)",
-    contact_info_tag: "Contact Info",
-    contact_info_title: "Contact Information",
-    contact_page_title: "Let\u2019s Connect",
-    cta_tag: "Get Started",
-    news_hero_title: "Industry News & Updates",
-    news_hero_title2: "News & Updates",
-    news_hero_desc: "The latest from SNOWL: industry insights, product updates, and company news.",
-    news_corrosion_title: "Choosing the Right Stainless Steel for Marine Use",
-    news_corrosion_desc: "Discover how stainless steel grades affect performance in marine environments.",
-    news_europe_title: "SNOWL Expands European Distribution Network",
-    news_europe_desc: "SNOWL expands distribution network across 15 new European countries.",
-    news_metstrade_title: "SNOWL at METSTRADE 2025 - See You in Amsterdam!",
-    news_metstrade_desc: "Join us at METSTRADE 2025 in Amsterdam - Hall 5, Booth 307.",
-    news_miami_title: "SNOWL at Miami International Boat Show 2025",
-    news_miami_desc: "Meet SNOWL team at the Miami International Boat Show 2025.",
-    news_ss316_title: "SS316 vs SS304: Which Stainless Steel for Marine?",
-    news_ss316_desc: "SS316 offers superior corrosion resistance compared to SS304 in salt water environments.",
-    news_sustainable_title: "SNOWL Launches Sustainable Packaging Initiative",
-    news_sustainable_desc: "SNOWL launches new eco-friendly packaging initiative using recycled materials.",
-    prod_hero_title: "Complete Marine Hardware Catalog",
-    prod_hero_title2: "Marine Hardware Catalog",
-    prod_hero_desc: "Browse our complete catalog of marine fasteners and hardware.",
-    prod_sec_title: "Professional Marine Hardware Solutions",
-    prod_sec_desc: "Professional-grade marine fasteners trusted by boat builders worldwide for over 30 years.",
-    prod_cat1_title: "OWOZ Fastener",
-    prod_cat1_desc: "All-copper marine snap button bases with silver, chrome, and black chrome finishes.",
-    prod_cat2_title: "Snap Fastener",
-    prod_cat2_desc: "Heavy-duty stainless steel snap fasteners for demanding marine canvas applications.",
-    prod_cat3_title: "Turn Button",
-    prod_cat3_desc: "Precision turn buttons for secure and quick-release canvas fastening on vessels.",
-    prod_cat4_title: "Nylon Button",
-    prod_cat4_desc: "Lightweight nylon buttons for sailboat canvas with zero corrosion performance.",
-    prod_cat5_title: "Installation Tools",
-    prod_cat5_desc: "Professional installation tools and accessories for marine fastener assembly.",
-    prod_cat6_title: "Deck Fasteners",
-    prod_cat6_desc: "Marine panel clips for boat decks and cabin interiors. Corrosion-resistant.",
-    prod_cta_title: "Need a Custom Solution?",
-    prod_cta_desc: "Cannot find what you need? Contact us for custom solutions and bulk pricing.",
-    vid_hero_title: "Product Videos & Tutorials",
-    vid_hero_title2: "Product Videos",
-    vid_hero_desc: "Watch tutorials on marine fastener installation and product demonstrations.",
-    vid_sec_title: "Watch & Learn",
-    vid_4000c1_title: "4000C1 Installation Guide",
-    vid_4000c1_desc: "How to install 4000C1 turn buttons - step by step.",
-    vid_4000d8_title: "4000D8 Panel Fastener Tool",
-    vid_4000d8_desc: "Panel fastener installation using 4000D8 tool - fast and secure.",
-    vid_4000r2_title: "Quick-Release Mechanism Demo",
-    vid_4000r2_desc: "Quick-release mechanism demo - easy open and close.",
-    vid_hibur_title: "HIBUR Quick-Release System",
-    vid_hibur_desc: "HIBUR bungee cord quick-release system for marine deck applications.",
-    vid_owoz_title: "OWOZ Marine Snap Button System",
-    vid_owoz_desc: "OWOZ marine snap button system - corrosion-resistant copper bases for ocean use.",
-    vid_youtube_note: "More videos on our YouTube channel \u2192",
-
+    turn_hero_title: "Serie de Botones Giratorios",
+    turn_hero_desc: "Botones giratorios de precisión para aplicaciones de lona marina.",
+  },
 
 };// Auto-apply i18n update for any elements already rendered
 // Language helper functions
