@@ -16,11 +16,11 @@
 <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
 <link rel="stylesheet" href="style.css"></head>
 <body><div class="loader" id="loader"><div class="loader-spinner"></div><div class="loader-text">SNOWL</div></div><div class="page-bg"></div><nav class="navbar" id="navbar"><div class="nav-inner"><a href="index.html" class="nav-logo"><img src="LOGO/SNOWL.png" alt="SNOWL" style="height:32px;width:auto;display:block"></a><ul class="nav-links">
-<li><a href="index.html">Home</a></li>
-<li class="has-dropdown"><a href="products.html" class="dropdown-trigger">Products <span class="dropdown-arrow">▼</span></a><div class="dropdown-menu">
+<li><a href="index.html" data-i18n="nav_home">Home</a></li>
+<li class="has-dropdown"><a href="products.html" class="dropdown-trigger" data-i18n="nav_products">Products <span class="dropdown-arrow">▼</span></a><div class="dropdown-menu">
 <a href="owoz-fastener.html">OWOZ Fastener</a><a href="snap-fastener.html">Snap Fastener</a><a href="turn-button.html">Turn Button</a><a href="nylon-button.html">Nylon Button</a><a href="tool.html">TOOL</a></div></li>
-<li><a href="about.html">About</a></li><li><a href="news.html">News</a></li><li><a href="videos.html" class="active">Videos</a></li><li><a href="contact.html">Contact</a></li></ul>
-<div class="lang-switcher"><button class="lang-btn active">EN</button><button class="lang-btn" onclick="setLang('zh')"> data-lang="zh">中</button><button class="lang-btn">DE</button><button class="lang-btn">FR</button><button class="lang-btn">RU</button><button class="lang-btn">PT</button><button class="lang-btn">ES</button></div>
+<li><a href="about.html" data-i18n="nav_about">About</a></li><li><a href="news.html" data-i18n="nav_news">News</a></li><li><a href="videos.html" class="active" data-i18n="nav_videos">Videos</a></li><li><a href="contact.html" data-i18n="nav_contact">Contact</a></li></ul>
+<div class="lang-switcher"><button class="lang-btn active" data-lang="en" onclick="setLang('en')">EN</button><button class="lang-btn" data-lang="zh" onclick="setLang('zh')">中</button><button class="lang-btn" data-lang="de" onclick="setLang('de')">DE</button><button class="lang-btn" data-lang="fr" onclick="setLang('fr')">FR</button><button class="lang-btn" data-lang="ru" onclick="setLang('ru')">RU</button><button class="lang-btn" data-lang="pt" onclick="setLang('pt')">PT</button><button class="lang-btn" data-lang="es" onclick="setLang('es')">ES</button></div>
 <button class="menu-toggle" id="menuToggle" aria-label="Menu"><span></span><span></span><span></span></button></div></nav>
 <div class="mobile-menu" id="mobileMenu">
   <div class="mobile-lang" style="display:flex;align-items:center;gap:6px;padding:16px 0 8px;border-bottom:1px solid rgba(255,255,255,0.1);margin-bottom:8px">
@@ -35,8 +35,8 @@
     <button class="lang-btn" data-lang="es" onclick="setLang('es')">ES</button>
   </div>
 </div>
-<a href="index.html">Home</a><a href="products.html">Products</a><a href="about.html">About</a><a href="news.html">News</a><a href="videos.html" class="active">Videos</a><a href="contact.html">Contact</a></div><main><section class="hero"><div class="container"><div class="hero-content"><div class="hero-badge" data-i18n="hero_badge">Watch & Learn</div><h1>Product<br><span>Videos</span></h1><p class="hero-desc">Watch our product demonstrations and factory tour footage to learn about SNOWL marine hardware.</p></div></div></section>
-<section class="section section--white"><div class="container"><div class="section-header fade-in"><div class="section-tag" data-i18n="vid_tag">Video Library</div><h2 class="section-title">See SNOWL in Action</h2></div>
+<a href="index.html" data-i18n="nav_home">Home</a><a href="products.html">Products</a><a href="about.html" data-i18n="nav_about">About</a><a href="news.html" data-i18n="nav_news">News</a><a href="videos.html" class="active" data-i18n="nav_videos">Videos</a><a href="contact.html" data-i18n="nav_contact">Contact</a></div><main><section class="hero"><div class="container"><div class="hero-content"><div class="hero-badge" data-i18n="hero_badge">Watch & Learn</div><h1 data-i18n="vid_hero_title">Product<br><span data-i18n="vid_hero_title2">Videos</span></h1><p class="hero-desc" data-i18n="vid_hero_desc">Watch our product demonstrations and factory tour footage to learn about SNOWL marine hardware.</p></div></div></section>
+<section class="section section--white"><div class="container"><div class="section-header fade-in"><div class="section-tag" data-i18n="vid_tag">Video Library</div><h2 class="section-title" data-i18n="vid_sec_title">See SNOWL in Action</h2></div>
 <div class="news-grid">
 <div class="news-card fade-in" style="cursor:pointer" onclick="showVideoModal('nPVVIwRz0vA')">
 <div class="news-image" style="position:relative;overflow:hidden">
@@ -48,9 +48,9 @@
 </div>
 </div>
 <div class="news-content"><div class="news-date">Video Tutorial</div>
-<h3>Installation Guide — Hibur &amp; Snap Fastener</h3>
-<p style="font-size:12px;color:var(--c-muted);margin:4px 0 0">Click to watch on YouTube</p>
-<p>Learn the correct installation method for Hibur and Snap Fastener products in marine and outdoor applications.</p></div></div>
+<h3 data-i18n="vid_hibur_title">Installation Guide — Hibur &amp; Snap Fastener</h3>
+<p style="font-size:12px;color:var(--c-muted);margin:4px 0 0" data-i18n="vid_youtube_note">Click to watch on YouTube</p>
+<p data-i18n="vid_hibur_desc">Learn the correct installation method for Hibur and Snap Fastener products in marine and outdoor applications.</p></div></div>
 <div class="news-card fade-in" style="cursor:pointer" onclick="showVideoModal('opl4AkcFo9I')">
 <div class="news-image" style="position:relative;overflow:hidden">
 <img src="https://img.youtube.com/vi/opl4AkcFo9I/hqdefault.jpg" alt="4000C1 Shock Cord Cover Clip Installation" loading="lazy" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block">
@@ -61,8 +61,8 @@
 </div>
 </div>
 <div class="news-content"><div class="news-date">Video Tutorial</div>
-<h3>Installation Guide — 4000C1 Shock Cord Cover Clip</h3>
-<p>Official installation tutorial for the 4000C1 Shock Cord Cover Clip series. Ideal for marine canvas, bimini tops, and deck enclosure applications.</p></div></div>
+<h3 data-i18n="vid_4000c1_title">Installation Guide — 4000C1 Shock Cord Cover Clip</h3>
+<p data-i18n="vid_4000c1_desc">Official installation tutorial for the 4000C1 Shock Cord Cover Clip series. Ideal for marine canvas, bimini tops, and deck enclosure applications.</p></div></div>
 <div class="news-card fade-in" style="cursor:pointer" onclick="showVideoModal('ChCqA3jE1pw')">
 <div class="news-image" style="position:relative;overflow:hidden">
 <img src="https://img.youtube.com/vi/ChCqA3jE1pw/hqdefault.jpg" alt="4000R2 Installation" loading="lazy" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block">
@@ -73,8 +73,8 @@
 </div>
 </div>
 <div class="news-content"><div class="news-date">Video Tutorial</div>
-<h3>Installation Guide — 4000R2 Fastener</h3>
-<p>Official installation tutorial for the 4000R2 marine snap fastener series. Designed for reliable performance in marine canvas and deck hardware applications.</p></div></div>
+<h3 data-i18n="vid_4000r2_title">Installation Guide — 4000R2 Fastener</h3>
+<p data-i18n="vid_4000r2_desc">Official installation tutorial for the 4000R2 marine snap fastener series. Designed for reliable performance in marine canvas and deck hardware applications.</p></div></div>
 <div class="news-card fade-in" style="cursor:pointer" onclick="showVideoModal('amnmzdKiBz0')">
 <div class="news-image" style="position:relative;overflow:hidden">
 <img src="https://img.youtube.com/vi/amnmzdKiBz0/hqdefault.jpg" alt="4000D8 Installation" loading="lazy" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block">
@@ -85,8 +85,8 @@
 </div>
 </div>
 <div class="news-content"><div class="news-date">Video Tutorial</div>
-<h3>Installation Guide — 4000D8 Fastener</h3>
-<p>Official installation tutorial for the 4000D8 marine snap fastener series. Reliable performance for bimini tops, pontoon rails, and marine canvas installations.</p></div></div>
+<h3 data-i18n="vid_4000d8_title">Installation Guide — 4000D8 Fastener</h3>
+<p data-i18n="vid_4000d8_desc">Official installation tutorial for the 4000D8 marine snap fastener series. Reliable performance for bimini tops, pontoon rails, and marine canvas installations.</p></div></div>
 <div class="news-card fade-in" style="cursor:pointer" onclick="showVideoModal('bZApdPVrOCI')">
 <div class="news-image" style="position:relative;overflow:hidden">
 <img src="https://img.youtube.com/vi/bZApdPVrOCI/hqdefault.jpg" alt="OWOZ Fastener Installation" loading="lazy" style="width:100%;aspect-ratio:16/9;object-fit:cover;display:block">
@@ -97,9 +97,9 @@
 </div>
 </div>
 <div class="news-content"><div class="news-date">Video Tutorial</div>
-<h3>Installation Guide — OWOZ Fastener</h3>
-<p>Step-by-step guide for installing OWOZ marine snap fasteners on deck hardware, life vests, and marine canvas.</p></div></div>
-</div></div></section></main><footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="index.html" class="nav-logo"><img src="LOGO/SNOWL.png" alt="SNOWL" style="height:32px;width:auto;display:block"></a><p>SNOWL Hong Kong Limited — precision marine fastener manufacturer since 1995.</p></div><div class="footer-col"><h4> data-i18n="f_prod">Products</h4><ul><li><a href="owoz-fastener.html">OWOZ Fastener</a></li><li><a href="snap-fastener.html">Snap Fastener</a></li><li><a href="turn-button.html">Turn Button</a></li><li><a href="nylon-button.html">Nylon Button</a></li><li><a href="tool.html">TOOL</a></li></ul></div><div class="footer-col"><h4> data-i18n="f_company">Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="news.html">News</a></li><li><a href="videos.html">Videos</a></li><li><a href="contact.html">Contact</a></li></ul></div><div class="footer-col"><h4> data-i18n="f_contact">Contact</h4><ul><li>📞 +86-757-87768348</li><li>📧 owoz@snowl.top</li><li>📍 Foshan, Guangdong, China</li><li>🕐 Mon–Sat 9:00–18:00</li></ul></div></div><div class="footer-bottom"><p> data-i18n="f_copy">© 2025 SNOWL HONG KONG. All Rights Reserved.</p></div></div></footer><script>
+<h3 data-i18n="vid_owoz_title">Installation Guide — OWOZ Fastener</h3>
+<p data-i18n="vid_owoz_desc">Step-by-step guide for installing OWOZ marine snap fasteners on deck hardware, life vests, and marine canvas.</p></div></div>
+</div></div></section></main><footer class="footer"><div class="container"><div class="footer-grid"><div class="footer-brand"><a href="index.html" class="nav-logo"><img src="LOGO/SNOWL.png" alt="SNOWL" style="height:32px;width:auto;display:block"></a><p data-i18n="footer_brand_desc">SNOWL Hong Kong Limited — precision marine fastener manufacturer since 1995.</p></div><div class="footer-col"><h4 data-i18n="f_prod">Products</h4><ul><li><a href="owoz-fastener.html">OWOZ Fastener</a></li><li><a href="snap-fastener.html">Snap Fastener</a></li><li><a href="turn-button.html">Turn Button</a></li><li><a href="nylon-button.html">Nylon Button</a></li><li><a href="tool.html">TOOL</a></li></ul></div><div class="footer-col"><h4 data-i18n="f_company">Company</h4><ul><li><a href="about.html">About Us</a></li><li><a href="news.html" data-i18n="nav_news">News</a></li><li><a href="videos.html">Videos</a></li><li><a href="contact.html" data-i18n="nav_contact">Contact</a></li></ul></div><div class="footer-col"><h4 data-i18n="f_contact">Contact</h4><ul><li>📞 +86-757-87768348</li><li>📧 owoz@snowl.top</li><li>📍 Foshan, Guangdong, China</li><li>🕐 Mon–Sat 9:00–18:00</li></ul></div></div><div class="footer-bottom"><p data-i18n="f_copy">© 2025 SNOWL HONG KONG. All Rights Reserved.</p></div></div></footer><script>
 function showVideoModal(vid){window.open('https://www.youtube.com/watch?v='+vid,'_blank')}
 </script>
 <script src="main.js"></script><script src="js/i18n.js"></script>
