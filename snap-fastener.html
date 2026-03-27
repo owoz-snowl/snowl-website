@@ -115,17 +115,17 @@
     <button class="lang-btn" data-lang="es" onclick="setLang('es')">ES</button>
   </div>
 </div>
-<a href="index.html">Home</a><a href="products.html">Products</a><a href="about.html">About</a><a href="news.html">News</a><a href="videos.html">Videos</a><a href="contact.html">Contact</a>
+<a href="index.html" data-i18n="nav_home">Home</a><a href="products.html" data-i18n="nav_products">Products</a><a href="about.html">About</a><a href="news.html">News</a><a href="videos.html">Videos</a><a href="contact.html">Contact</a>
 </div>
 <main><section class="hero">
   <div class="container">
     <div class="hero-content">
       <div class="hero-badge" data-i18n="snap_tag">Heavy-Duty Stainless Steel Snap Fasteners</div>
-      <h1>Snap Fastener<br><span>Marine-Grade Fasteners</span></h1>
-      <p class="hero-desc">Heavy-duty stainless steel snap fasteners designed for demanding marine canvas applications. Built for strength, durability, and reliable performance in harsh ocean conditions.</p>
+      <h1 data-i18n="snap_hero_title">Snap Fastener<br><span data-i18n="snap_hero_title2">Marine-Grade Fasteners</span></h1>
+      <p class="hero-desc" data-i18n="snap_hero_desc">Heavy-duty stainless steel snap fasteners designed for demanding marine canvas applications. Built for strength, durability, and reliable performance in harsh ocean conditions.</p>
       <div class="hero-buttons">
-        <a href="contact.html" class="btn btn-primary">Request a Quote</a>
-        <a href="products.html" class="btn btn-outline">← All Products</a>
+        <a href="contact.html" class="btn btn-primary" data-i18n="snap_hero_btn_contact">Request a Quote</a>
+        <a href="products.html" class="btn btn-outline" data-i18n="snap_hero_btn_products">← All Products</a>
       </div>
     </div>
   </div>
@@ -139,10 +139,10 @@
       </div>
       <div class="fade-in">
         <div class="section-tag" data-i18n="prod_overview">Product Overview</div>
-        <h2 style="font-size:var(--text-3xl);font-weight:900;color:var(--c-primary);margin-bottom:var(--sp-3)">Snap Fastener</h2>
-        <p style="color:var(--c-muted);margin-bottom:var(--sp-4);line-height:1.8">Heavy-duty stainless steel snap fasteners designed for demanding marine canvas applications. Built for strength, durability, and reliable performance in harsh ocean conditions.</p>
+        <h2 style="font-size:var(--text-3xl);font-weight:900;color:var(--c-primary);margin-bottom:var(--sp-3)" data-i18n="snap_overview_title">Snap Fastener</h2>
+        <p style="color:var(--c-muted);margin-bottom:var(--sp-4);line-height:1.8" data-i18n="snap_overview_desc">Heavy-duty stainless steel snap fasteners designed for demanding marine canvas applications. Built for strength, durability, and reliable performance in harsh ocean conditions.</p>
         <div class="about-highlights">
-          <div class="highlight-item"><span class="icon"><i data-lucide="check-circle"></i></span><span class="label">316 Stainless Steel Construction — Maximum corrosion resistance</span></div><div class="highlight-item"><span class="icon"><i data-lucide="check-circle"></i></span><span class="label">Heavy-Duty Spring Mechanism — Reliable snap engagement under load</span></div><div class="highlight-item"><span class="icon"><i data-lucide="check-circle"></i></span><span class="label">UV Resistant Materials — Ideal for prolonged outdoor marine use</span></div><div class="highlight-item"><span class="icon"><i data-lucide="check-circle"></i></span><span class="label">Multiple Size Options — Standard and custom dimensions available</span></div>
+          <div class="highlight-item"><span class="icon"><i data-lucide="check-circle"></i></span><span class="label" data-i18n="snap_highlight1">316 Stainless Steel Construction — Maximum corrosion resistance</span></div><div class="highlight-item"><span class="icon"><i data-lucide="check-circle"></i></span><span class="label" data-i18n="snap_highlight2">Heavy-Duty Spring Mechanism — Reliable snap engagement under load</span></div><div class="highlight-item"><span class="icon"><i data-lucide="check-circle"></i></span><span class="label" data-i18n="snap_highlight3">UV Resistant Materials — Ideal for prolonged outdoor marine use</span></div><div class="highlight-item"><span class="icon"><i data-lucide="check-circle"></i></span><span class="label" data-i18n="snap_highlight4">Multiple Size Options — Standard and custom dimensions available</span></div>
         </div>
       </div>
     </div>
@@ -153,8 +153,8 @@
   <div class="container">
     <div class="section-header fade-in" style="margin-bottom:32px">
       <div class="section-tag" data-i18n="series_tag">Product Series</div>
-      <h2 class="section-title">Stainless Steel Snap Button Series</h2>
-      <p class="section-desc">Browse our snap fastener lineup below.</p>
+      <h2 class="section-title" data-i18n="snap_series_title">Stainless Steel Snap Button Series</h2>
+      <p class="section-desc" data-i18n="snap_series_desc">Browse our snap fastener lineup below.</p>
     </div>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:20px">
       <a href="4000ax.html" style="background:var(--c-white);border:2px solid var(--c-border);border-radius:16px;overflow:hidden;transition:all 0.3s var(--ease);display:block;text-decoration:none;color:inherit" onmouseover="this.style.borderColor='var(--c-accent)';this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 32px rgba(0,0,0,0.12)'" onmouseout="this.style.borderColor='var(--c-border)';this.style.transform='';this.style.boxShadow=''">
@@ -164,11 +164,11 @@
         <div style="padding:16px">
           <div style="font-size:0.7rem;font-weight:700;color:var(--c-white);background:var(--c-accent);padding:2px 10px;border-radius:20px;display:inline-block;margin-bottom:8px">NEW</div>
           <div style="font-size:1rem;font-weight:800;color:var(--c-primary);margin-bottom:6px">4000AX Series</div>
-          <p style="font-size:0.82rem;color:var(--c-muted);margin-bottom:12px;line-height:1.5">Stainless steel snap button set. All-copper construction with premium plating.</p>
+          <p style="font-size:0.82rem;color:var(--c-muted);margin-bottom:12px;line-height:1.5" data-i18n="snap_card1_desc">Stainless steel snap button set. All-copper construction with premium plating.</p>
           <div style="display:flex;gap:8px;margin-bottom:12px">
             <span style="width:16px;height:16px;border-radius:50%;background:#e0e0e0;border:1px solid #aaa;display:inline-block;flex-shrink:0;margin-top:2px"></span>
           </div>
-          <span style="font-size:0.85rem;font-weight:700;color:var(--c-accent)">View Series →</span>
+          <span style="font-size:0.85rem;font-weight:700;color:var(--c-accent)" data-i18n="snap_card_view">View Series →</span>
         </div>
       </a>
       <a href="msnap.html" style="background:var(--c-white);border:2px solid var(--c-border);border-radius:16px;overflow:hidden;transition:all 0.3s var(--ease);display:block;text-decoration:none;color:inherit" onmouseover="this.style.borderColor='var(--c-accent)';this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 32px rgba(0,0,0,0.12)'" onmouseout="this.style.borderColor='var(--c-border)';this.style.transform='';this.style.boxShadow=''">
@@ -178,11 +178,11 @@
         <div style="padding:16px">
           <div style="font-size:0.7rem;font-weight:700;color:var(--c-white);background:var(--c-accent);padding:2px 10px;border-radius:20px;display:inline-block;margin-bottom:8px">NEW</div>
           <div style="font-size:1rem;font-weight:800;color:var(--c-primary);margin-bottom:6px">MSNAP Series</div>
-          <p style="font-size:0.82rem;color:var(--c-muted);margin-bottom:12px;line-height:1.5">Stainless steel four-piece snap button. Heavy-duty marine grade construction.</p>
+          <p style="font-size:0.82rem;color:var(--c-muted);margin-bottom:12px;line-height:1.5" data-i18n="snap_card2_desc">Stainless steel four-piece snap button. Heavy-duty marine grade construction.</p>
           <div style="display:flex;gap:8px;margin-bottom:12px">
             <span style="width:16px;height:16px;border-radius:50%;background:#888;border:1px solid #666;display:inline-block;flex-shrink:0;margin-top:2px"></span>
           </div>
-          <span style="font-size:0.85rem;font-weight:700;color:var(--c-accent)">View Series →</span>
+          <span style="font-size:0.85rem;font-weight:700;color:var(--c-accent)" data-i18n="snap_card_view">View Series →</span>
         </div>
       </a>
       <a href="ysnap.html" style="background:var(--c-white);border:2px solid var(--c-border);border-radius:16px;overflow:hidden;transition:all 0.3s var(--ease);display:block;text-decoration:none;color:inherit" onmouseover="this.style.borderColor='var(--c-accent)';this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 32px rgba(0,0,0,0.12)'" onmouseout="this.style.borderColor='var(--c-border)';this.style.transform='';this.style.boxShadow=''">
@@ -192,11 +192,11 @@
         <div style="padding:16px">
           <div style="font-size:0.7rem;font-weight:700;color:var(--c-white);background:var(--c-accent);padding:2px 10px;border-radius:20px;display:inline-block;margin-bottom:8px">NEW</div>
           <div style="font-size:1rem;font-weight:800;color:var(--c-primary);margin-bottom:6px">YSNAP Series</div>
-          <p style="font-size:0.82rem;color:var(--c-muted);margin-bottom:12px;line-height:1.5">Stainless steel four-piece snap button. Versatile marine and industrial applications.</p>
+          <p style="font-size:0.82rem;color:var(--c-muted);margin-bottom:12px;line-height:1.5" data-i18n="snap_card3_desc">Stainless steel four-piece snap button. Versatile marine and industrial applications.</p>
           <div style="display:flex;gap:8px;margin-bottom:12px">
             <span style="width:16px;height:16px;border-radius:50%;background:#888;border:1px solid #666;display:inline-block;flex-shrink:0;margin-top:2px"></span>
           </div>
-          <span style="font-size:0.85rem;font-weight:700;color:var(--c-accent)">View Series →</span>
+          <span style="font-size:0.85rem;font-weight:700;color:var(--c-accent)" data-i18n="snap_card_view">View Series →</span>
         </div>
       </a>
     </div>
@@ -207,12 +207,12 @@
   <div class="container">
     <div class="section-header fade-in">
       <div class="section-tag" data-i18n="spec_title">Specifications</div>
-      <h2 class="section-title">Technical Details</h2>
+      <h2 class="section-title" data-i18n="spec_title">Technical Details</h2>
     </div>
     <div style="background:var(--c-white);border:1px solid var(--c-border);border-radius:var(--r-lg);overflow:hidden;max-width:700px;margin:0 auto;box-shadow:var(--shadow-sm)">
       <table class="spec-table" style="width:100%;border-collapse:collapse">
         <tbody>
-          <tr><td>Material</td><td>316 Stainless Steel</td></tr><tr><td>Finish</td><td>Natural SS / Polished</td></tr><tr><td>Part Type</td><td>Complete Snap Kit</td></tr><tr><td>Applications</td><td>Marine canvas, bimini tops, sail covers, boat covers, awnings</td></tr><tr><td>Spring Type</td><td>Stainless steel spring</td></tr><tr><td>Corrosion Resistance</td><td>Excellent — SS316 grade</td></tr><tr><td>Brand</td><td>SNOWL Hong Kong Limited</td></tr>
+          <tr><td data-i18n="snap_spec_material">Material</td><td data-i18n="snap_spec_material_val">316 Stainless Steel</td></tr><tr><td data-i18n="snap_spec_finish">Finish</td><td data-i18n="snap_spec_finish_val">Natural SS / Polished</td></tr><tr><td data-i18n="snap_spec_part">Part Type</td><td data-i18n="snap_spec_part_val">Complete Snap Kit</td></tr><tr><td data-i18n="snap_spec_app">Applications</td><td data-i18n="snap_spec_app_val">Marine canvas, bimini tops, sail covers, boat covers, awnings</td></tr><tr><td data-i18n="snap_spec_spring">Spring Type</td><td data-i18n="snap_spec_spring_val">Stainless steel spring</td></tr><tr><td data-i18n="snap_spec_corrosion">Corrosion Resistance</td><td data-i18n="snap_spec_corrosion_val">Excellent — SS316 grade</td></tr><tr><td data-i18n="snap_spec_brand">Brand</td><td data-i18n="snap_spec_brand_val">SNOWL Hong Kong Limited</td></tr>
         </tbody>
       </table>
     </div>
@@ -222,11 +222,11 @@
 <section class="section section--white">
   <div class="container" style="text-align:center">
     <div class="section-header fade-in">
-      <div class="section-tag">Get Started</div>
-      <h2 class="section-title">Interested in Snap Fastener?</h2>
-      <p class="section-desc">Contact us for pricing, samples, and custom requirements.</p>
+      <div class="section-tag" data-i18n="cta_get_started">Get Started</div>
+      <h2 class="section-title" data-i18n="snap_cta_title">Interested in Snap Fastener?</h2>
+      <p class="section-desc" data-i18n="snap_cta_desc">Contact us for pricing, samples, and custom requirements.</p>
     </div>
-    <a href="contact.html" class="btn btn-primary" style="display:inline-flex">Request a Quote →</a>
+    <a href="contact.html" class="btn btn-primary" style="display:inline-flex" data-i18n="snap_cta_btn">Request a Quote →</a>
   </div>
 </section></main>
 <footer class="footer"><div class="container"><div class="footer-grid">
