@@ -277,7 +277,7 @@ const i18n={
     hero_badge:"始于1995年 · 船舶紧固件专家",
     hero_btn_contact:"联系我们",
     hero_btn_products:"查看产品",
-    hero_desc:"SNOWL Hong Kong — leading manufacturer of OWOZ snap buttons and marine hardware. Trusted by boat manufacturers, yacht builders, and maritime suppliers across Europe and America for over 30 years.",
+    hero_desc:"SNOWL香港有限公司是OWOZ按扣及海事五金件的领先制造商。30余年来，深受欧洲及美洲船舶制造商、游艇建造商和海事供应商信赖。",
     hero_title1:"优质船舶紧固件",
     hero_title2:"面向全球船舶与游艇",
     hours_label:"工作时间",
