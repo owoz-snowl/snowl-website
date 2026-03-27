@@ -8,7 +8,7 @@
 
 - [x] 1. Schema 结构化数据（JSON-LD）
 - [x] 2. 图片 alt 文字优化
-- [ ] 3. 产品页内容补充
+- [x] 3. 产品页内容补充
 - [ ] 4. Meta description 优化
 - [ ] 5. 速度优化（WebP / CDN / 缓存）
 - [ ] 6. 内容层优化（新闻/视频/about）
@@ -57,6 +57,55 @@ feat(seo): add JSON-LD Product + Organization schema to all pages
 Pushed to origin/main ✓
 ```
 
+
+## 2026-03-27 — 任务3：产品页内容补充
+
+### 执行摘要
+为全部 37 个产品页添加了材质说明、应用场景和认证标识，并对破损内容进行了修复。
+
+### 修改文件（37个）
+- **4000系列工具**（7个）：4000a1t1, 4000ax, 4000b1t1, 4000b5t, 4000b6t, 4000d8t1, hibur
+- **4000系列旋转扣**（8个）：4000b1, 4000b3, 4000b5, 4000b6, 4000b7, 4000b8, 4000bn, 4000bs316
+- **4000系列弹簧扣**（6个）：4000c1, 4000c4, 4000c5, 4000c7, 4000dx, 4000rx
+- **OWOZ系列**（8个）：owoz-800000x ~ owoz-800007x
+- **其他产品**（8个）：833333x, msnap, ysnap, nylon-button, turn-button, snap-fastener, owoz-fastener, tool
+
+### 改动详情
+
+**1. 规格参数表格补充：**
+- 添加 `Certifications` 行：CE, ISO 9001
+- 添加 `Marine Applications` 行：Yacht, Sailboat, Dinghy, Commercial Vessel, Bimini Top, Sail Cover
+
+**2. 视觉应用场景模块：**
+在每个产品页的「Send Inquiry」按钮前插入 Marine Applications 图标展示区：
+- 🚤 Yacht / ⛵ Sailboat / 🛥️ Dinghy / 🚢 Commercial Vessel / 🏕️ Bimini Top / ⛺ Sail Cover
+
+**3. 认证徽章模块：**
+插入 CE / ISO 9001 / Marine Grade 认证徽章，绿色/橙色/紫色配色，视觉突出。
+
+**4. 内容修复：**
+- `hibur.html`：修复破损 feat-list（原来所有特点合并在一个 `<li>` 中），拆分为 6 条独立列表项，并翻译为英文。
+
+### 新增代码结构
+```
+<!-- Marine Applications -->
+<div style="background:linear-gradient(...)">
+  ⚓ Marine Applications
+  🚤 Yacht | ⛵ Sailboat | 🛥️ Dinghy | 🚢 Commercial Vessel | 🏕️ Bimini Top | ⛺ Sail Cover
+</div>
+
+<!-- Certifications -->
+[CE Certified] [ISO 9001] [Marine Grade]
+```
+
+### Git 提交
+```
+feat(seo): product page content supplement — marine apps, CE/ISO certs, material specs
+38 files changed, 3626 insertions(+), 82 deletions(-)
+Pushed to origin/main ✓
+```
+
+---
 
 ## 2026-03-27 — 任务2：图片 alt 文字优化
 
